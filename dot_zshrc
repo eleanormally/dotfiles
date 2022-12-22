@@ -1,0 +1,31 @@
+# Fig pre block. Keep at the top of this file.
+[[ -f "$HOME/.fig/shell/zshrc.pre.zsh" ]] && builtin source "$HOME/.fig/shell/zshrc.pre.zsh"
+# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
+# Initialization code that may require console input (password prompts, [y/n]
+# confirmations, etc.) must go above this block; everything else may go below.
+if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
+  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+fi
+
+export PATH=$Path:~/.local/bin:"$PATH":~/.local/bin:"$PATH"
+export PATH="$(npm bin -g):$PATH"
+export DS="/Users/ellie/Documents/RPI/Classes/dataStructures"
+export SKX="/Users/ellie/Documents/Programming/skewax/v3-viktor"
+export OBS="/Users/ellie/Library/Mobile Documents/iCloud~md~obsidian/Documents/Main Vault"
+export PSITE="/Users/ellie/Documents/Programming/personalSite"
+export PRG="/Users/ellie/Documents/Programming"
+export AVC="/Users/ellie/.config/nvim/lua/user/init.lua"
+source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+alias :='. /Users/ellie/Documents/Programming/zshScripts/pipeval.sh'
+alias valgrind='docker attach vibrant_satoshi'
+
+source /opt/homebrew/opt/powerlevel10k/powerlevel10k.zsh-theme
+
+# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+# Fig post block. Keep at the bottom of this file.
+[[ -f "$HOME/.fig/shell/zshrc.post.zsh" ]] && builtin source "$HOME/.fig/shell/zshrc.post.zsh"

@@ -1,0 +1,35 @@
+{
+  "$schema" : "https:\/\/app.linearmouse.org\/schema\/0.7.3",
+  "schemes" : [
+    {
+      "pointer" : {
+        "acceleration" : 1.5439,
+        "speed" : 0.06,
+        "disableAcceleration" : false
+      },
+      "if" : {
+        "device" : {
+          "productName" : "LIFT",
+          "serialNumber" : "E592B507",
+          "productID" : "0xb031",
+          "category" : "mouse",
+          "vendorID" : "0x46d"
+        }
+      }
+    },
+    {
+      "pointer" : {
+        "speed" : 0.1
+      },
+      "if" : {
+        "device" : {
+          "productName" : "Apple Wireless Trackpad",
+          "serialNumber" : "84-fc-fe-e1-bb-b8",
+          "productID" : "0x30e",
+          "category" : "trackpad",
+          "vendorID" : "0x5ac"
+        }
+      }
+    }
+  ]
+}

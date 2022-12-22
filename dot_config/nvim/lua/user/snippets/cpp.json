@@ -1,0 +1,10 @@
+{
+  "for unsigned n": {
+    "prefix": "forun",
+    "body": ["for(unsigned int $1 = 0; $1 < $2; $1++) {"]
+  },
+  "for signed n": {
+    "prefix": "forin",
+    "body": ["for(int $1 = 0; $1 < $2; $1 ++) {"]
+  }
+}

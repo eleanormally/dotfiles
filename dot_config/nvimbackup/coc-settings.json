@@ -1,0 +1,7 @@
+{
+    "colors.filetypes": [
+      "*"
+    ],
+    "svelte.enable-ts-plugin": true
+
+}

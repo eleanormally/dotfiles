@@ -1,0 +1,46 @@
+{
+	"analytics-uuid": "046bd61b-8270-4615-8dd3-06f6849de132",
+	"motd": {
+		"cloudBuildErrorAfter": 1594252800000,
+		"cloudBuildWarnAfter": 1590019200000,
+		"defaultNode10After": 1594252800000,
+		"minVersion": "3.0.5",
+		"node8DeploysDisabledAfter": 1613390400000,
+		"node8RuntimeDisabledAfter": 1615809600000,
+		"node8WarnAfter": 1600128000000,
+		"fetched": 1646014827018
+	},
+	"usage": true,
+	"user": {
+		"iss": "accounts.google.com",
+		"azp": "563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com",
+		"aud": "563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com",
+		"sub": "113002967410267877402",
+		"email": "eleanorkolson@gmail.com",
+		"email_verified": true,
+		"at_hash": "qR2qdrrt6oc7OVMgkd4nMg",
+		"iat": 1645760726,
+		"exp": 1645764326
+	},
+	"tokens": {
+		"expires_at": 1646018425948,
+		"refresh_token": "1//0dBdaiWi7DtKcCgYIARAAGA0SNwF-L9Ir5V6uynMrLHaBDGBTrEtKQHWOepVbBEeLAwxLSDFhlZBsTPgiUXMgkoLaOOzY-LRO0xQ",
+		"scopes": [],
+		"access_token": "ya29.A0ARrdaM9b1A5WDUAYiIPXJ81Toa2IIooYA24leHGR08r22CnlX5BNjYze7GasvR9AzFZSkYorCYduGYn_iC327KX0QUru_vzdZ0FPfBuaBANGBgUQlAEeuQOyTlbr3WRfUMebNJ1zVzFBz-PuPJ16nK50La0UwY_aR125NA",
+		"expires_in": 3599,
+		"scope": "https://www.googleapis.com/auth/firebase openid https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/cloudplatformprojects.readonly",
+		"token_type": "Bearer",
+		"id_token": "eyJhbGciOiJSUzI1NiIsImtpZCI6ImFjYjZiZTUxZWZlYTZhNDE5ZWM5MzI1ZmVhYTFlYzQ2NjBmNWIzN2MiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJhY2NvdW50cy5nb29nbGUuY29tIiwiYXpwIjoiNTYzNTg0MzM1ODY5LWZncmhnbWQ0N2JxbmVraWo1aThiNXByMDNobzg0OWU2LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiYXVkIjoiNTYzNTg0MzM1ODY5LWZncmhnbWQ0N2JxbmVraWo1aThiNXByMDNobzg0OWU2LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwic3ViIjoiMTEzMDAyOTY3NDEwMjY3ODc3NDAyIiwiZW1haWwiOiJlbGVhbm9ya29sc29uQGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJhdF9oYXNoIjoiUkdsaGpCRlhhX1BLN0hQWlpMUmpGQSIsImlhdCI6MTY0NjAxNDgyNiwiZXhwIjoxNjQ2MDE4NDI2fQ.CiwvBBX64RNNYcQ5A0juaiVNoyDACYwav6AeiJH5a5QuwdWtSjpAHXSR8BldesaA3k7iNjX-R6bAIfksJrYuBVqVh1U1AzFSzD1jhw-JGEQwF2xfPfH5rRAS5VDW2s-mTB8cEnlnPNtOLcTIItSV39I3KB0wFou-XBPbdJmtciWzqHGGKp28ld7qmSRS7TGwqehb16XIcuU4z0Q4xPnDiZKp98o30zUO9rxarQsWm8wVkRLlA4zzjCsVaVfCkPD-YKc-3Kle1IPBdjiT3eeTOST7jxA_-sqNmTVIRR4HAJ8pcu_4GAXRIcnvJ1p1ULWAKliXMoj_hOWlz6DL6cp1LQ"
+	},
+	"activeProjects": {
+		"/Users/ellie/Documents/Programming/skewax-backend": "skewax",
+		"/Users/ellie/Documents/Programming/skewax": "skewax"
+	},
+	"adminsdkconfig": {
+		"skewax": {
+			"projectId": "skewax",
+			"storageBucket": "skewax.appspot.com",
+			"locationId": "us-central"
+		}
+	}
+}
