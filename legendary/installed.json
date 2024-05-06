@@ -1,0 +1,29 @@
+{
+  "CrabEA": {
+    "app_name": "CrabEA",
+    "base_urls": [
+      "https://download.epicgames.com/Builds/Org/o-9r9hp69ccnr39qp9f9mgpsznznu4as/Crab/default",
+      "https://download2.epicgames.com/Builds/Org/o-9r9hp69ccnr39qp9f9mgpsznznu4as/Crab/default",
+      "https://download3.epicgames.com/Builds/Org/o-9r9hp69ccnr39qp9f9mgpsznznu4as/Crab/default",
+      "https://download4.epicgames.com/Builds/Org/o-9r9hp69ccnr39qp9f9mgpsznznu4as/Crab/default",
+      "https://epicgames-download1.akamaized.net/Builds/Org/o-9r9hp69ccnr39qp9f9mgpsznznu4as/Crab/default",
+      "https://fastly-download.epicgames.com/Builds/Org/o-9r9hp69ccnr39qp9f9mgpsznznu4as/Crab/default"
+    ],
+    "can_run_offline": true,
+    "egl_guid": "",
+    "executable": "FactoryGame.exe",
+    "install_path": "/Users/ellie/Games/Heroic/SatisfactoryEarlyAccess",
+    "install_size": 21404709223,
+    "install_tags": [],
+    "is_dlc": false,
+    "launch_parameters": "",
+    "manifest_path": null,
+    "needs_verification": false,
+    "platform": "Windows",
+    "prereq_info": null,
+    "requires_ot": false,
+    "save_path": "/Users/ellie/Games/Heroic/Prefixes/default/Satisfactory Early Access/drive_c/users/crossover/AppData/Local/FactoryGame/Saved/SaveGames/0742185caa9a4bc58148cd39f2ff6c5e",
+    "title": "Satisfactory Early Access",
+    "version": "211839.204"
+  }
+}

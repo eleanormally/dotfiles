@@ -1,0 +1,1034 @@
+{
+  "Mac": [
+    {
+      "app_name": "Corydalis",
+      "asset_id": "Corydalis",
+      "build_version": "1.4.4_Mac_Release_16",
+      "catalog_item_id": "1e38b618d106430db94b474abbfecc16",
+      "label_name": "Live-Mac",
+      "metadata": {},
+      "namespace": "corydalis"
+    },
+    {
+      "app_name": "Fortnite",
+      "asset_id": "Fortnite",
+      "build_version": "++Fortnite+Release-13.40-CL-14190742-Mac",
+      "catalog_item_id": "4fe75bbc5a674f4f9b356b5c90567da5",
+      "label_name": "Live-Mac",
+      "metadata": {},
+      "namespace": "fn"
+    },
+    {
+      "app_name": "InfinityBladeWarriors",
+      "asset_id": "InfinityBladeWarriors",
+      "build_version": "4.21.0-6930869+++depot+UE4-UserContent-Mac",
+      "catalog_item_id": "33c13829c0da48199315e9adf8d33c73",
+      "label_name": "Live-Mac",
+      "metadata": {},
+      "namespace": "ue"
+    },
+    {
+      "app_name": "InfinityBladeEffects",
+      "asset_id": "InfinityBladeEffects",
+      "build_version": "4.21.0-6930635+++depot+UE4-UserContent-Mac",
+      "catalog_item_id": "38a3355872ef41bab5d2ba5b21c29eba",
+      "label_name": "Live-Mac",
+      "metadata": {},
+      "namespace": "ue"
+    },
+    {
+      "app_name": "UE_4.0",
+      "asset_id": "UE",
+      "build_version": "4.0.2-2034640+++depot+UE4-Releases+4.0-Mac",
+      "catalog_item_id": "3ddb1bad6e004b99a7192c1a29f2318a",
+      "label_name": "Live-Mac",
+      "metadata": {},
+      "namespace": "ue"
+    },
+    {
+      "app_name": "UE_4.1",
+      "asset_id": "UE",
+      "build_version": "4.1.2-2109544+++depot+UE4-Releases+4.1-Mac",
+      "catalog_item_id": "3ddb1bad6e004b99a7192c1a29f2318a",
+      "label_name": "Live-Mac",
+      "metadata": {},
+      "namespace": "ue"
+    },
+    {
+      "app_name": "UE_4.10",
+      "asset_id": "UE",
+      "build_version": "4.10.4-2872498+++depot+UE4-Releases+4.10-2023.1-Mac",
+      "catalog_item_id": "3ddb1bad6e004b99a7192c1a29f2318a",
+      "label_name": "Live-Mac",
+      "metadata": {},
+      "namespace": "ue"
+    },
+    {
+      "app_name": "UE_4.11",
+      "asset_id": "UE",
+      "build_version": "4.11.2-2946394+++UE4+Release-4.11-2023.1-Mac",
+      "catalog_item_id": "3ddb1bad6e004b99a7192c1a29f2318a",
+      "label_name": "Live-Mac",
+      "metadata": {},
+      "namespace": "ue"
+    },
+    {
+      "app_name": "UE_4.12",
+      "asset_id": "UE",
+      "build_version": "4.12.5-3039270+++UE4+Release-4.12-2023.1-Mac",
+      "catalog_item_id": "3ddb1bad6e004b99a7192c1a29f2318a",
+      "label_name": "Live-Mac",
+      "metadata": {},
+      "namespace": "ue"
+    },
+    {
+      "app_name": "UE_4.13",
+      "asset_id": "UE",
+      "build_version": "4.13.2-3172292+++UE4+Release-4.13-2023.1-Mac",
+      "catalog_item_id": "3ddb1bad6e004b99a7192c1a29f2318a",
+      "label_name": "Live-Mac",
+      "metadata": {},
+      "namespace": "ue"
+    },
+    {
+      "app_name": "UE_4.14",
+      "asset_id": "UE",
+      "build_version": "4.14.3-3249277+++UE4+Release-4.14-2023.1-Mac",
+      "catalog_item_id": "3ddb1bad6e004b99a7192c1a29f2318a",
+      "label_name": "Live-Mac",
+      "metadata": {},
+      "namespace": "ue"
+    },
+    {
+      "app_name": "UE_4.15",
+      "asset_id": "UE",
+      "build_version": "4.15.3-3450819+++UE4+Release-4.15-2023.1-Mac",
+      "catalog_item_id": "3ddb1bad6e004b99a7192c1a29f2318a",
+      "label_name": "Live-Mac",
+      "metadata": {},
+      "namespace": "ue"
+    },
+    {
+      "app_name": "UE_4.16",
+      "asset_id": "UE",
+      "build_version": "4.16.3-3561208+++UE4+Release-4.16-2023.1-Mac",
+      "catalog_item_id": "3ddb1bad6e004b99a7192c1a29f2318a",
+      "label_name": "Live-Mac",
+      "metadata": {},
+      "namespace": "ue"
+    },
+    {
+      "app_name": "UE_4.17",
+      "asset_id": "UE",
+      "build_version": "4.17.2-3658906+++UE4+Release-4.17-2023.1-Mac",
+      "catalog_item_id": "3ddb1bad6e004b99a7192c1a29f2318a",
+      "label_name": "Live-Mac",
+      "metadata": {},
+      "namespace": "ue"
+    },
+    {
+      "app_name": "UE_4.18",
+      "asset_id": "UE",
+      "build_version": "4.18.3-3832480+++UE4+Release-4.18-2023.1-Mac",
+      "catalog_item_id": "3ddb1bad6e004b99a7192c1a29f2318a",
+      "label_name": "Live-Mac",
+      "metadata": {},
+      "namespace": "ue"
+    },
+    {
+      "app_name": "UE_4.19",
+      "asset_id": "UE",
+      "build_version": "4.19.2-4033788+++UE4+Release-4.19-2023.1-Mac",
+      "catalog_item_id": "3ddb1bad6e004b99a7192c1a29f2318a",
+      "label_name": "Live-Mac",
+      "metadata": {},
+      "namespace": "ue"
+    },
+    {
+      "app_name": "UE_4.2",
+      "asset_id": "UE",
+      "build_version": "4.2.1-2101290+++depot+UE4-Releases+4.2-Mac",
+      "catalog_item_id": "3ddb1bad6e004b99a7192c1a29f2318a",
+      "label_name": "Live-Mac",
+      "metadata": {},
+      "namespace": "ue"
+    },
+    {
+      "app_name": "UE_4.20",
+      "asset_id": "UE",
+      "build_version": "4.20.3-4369336+++UE4+Release-4.20-2023.1-Mac",
+      "catalog_item_id": "3ddb1bad6e004b99a7192c1a29f2318a",
+      "label_name": "Live-Mac",
+      "metadata": {},
+      "namespace": "ue"
+    },
+    {
+      "app_name": "UE_4.21",
+      "asset_id": "UE",
+      "build_version": "4.21.2-4753647+++UE4+Release-4.21-2023.1-Mac",
+      "catalog_item_id": "3ddb1bad6e004b99a7192c1a29f2318a",
+      "label_name": "Live-Mac",
+      "metadata": {},
+      "namespace": "ue"
+    },
+    {
+      "app_name": "UE_4.22",
+      "asset_id": "UE",
+      "build_version": "4.22.3-7053642+++UE4+Release-4.22-2023.1-Mac",
+      "catalog_item_id": "3ddb1bad6e004b99a7192c1a29f2318a",
+      "label_name": "Live-Mac",
+      "metadata": {},
+      "namespace": "ue"
+    },
+    {
+      "app_name": "UE_4.23",
+      "asset_id": "UE",
+      "build_version": "4.23.1-9631420+++UE4+Release-4.23-2023.1-Mac",
+      "catalog_item_id": "3ddb1bad6e004b99a7192c1a29f2318a",
+      "label_name": "Live-Mac",
+      "metadata": {},
+      "namespace": "ue"
+    },
+    {
+      "app_name": "UE_4.24",
+      "asset_id": "UE",
+      "build_version": "4.24.3-11590370+++UE4+Release-4.24-2023.1-Mac",
+      "catalog_item_id": "3ddb1bad6e004b99a7192c1a29f2318a",
+      "label_name": "Live-Mac",
+      "metadata": {},
+      "namespace": "ue"
+    },
+    {
+      "app_name": "UE_4.25",
+      "asset_id": "UE",
+      "build_version": "4.25.4-14469661+++UE4+Release-4.25-2023.1-Mac",
+      "catalog_item_id": "3ddb1bad6e004b99a7192c1a29f2318a",
+      "label_name": "Live-Mac",
+      "metadata": {},
+      "namespace": "ue"
+    },
+    {
+      "app_name": "UE_4.26",
+      "asset_id": "UE",
+      "build_version": "4.26.2-15973114+++UE4+Release-4.26-2023.1-Mac",
+      "catalog_item_id": "3ddb1bad6e004b99a7192c1a29f2318a",
+      "label_name": "Live-Mac",
+      "metadata": {},
+      "namespace": "ue"
+    },
+    {
+      "app_name": "UE_4.27",
+      "asset_id": "UE",
+      "build_version": "4.27.2-18319896+++UE4+Release-4.27-2023.1-Mac",
+      "catalog_item_id": "3ddb1bad6e004b99a7192c1a29f2318a",
+      "label_name": "Live-Mac",
+      "metadata": {},
+      "namespace": "ue"
+    },
+    {
+      "app_name": "UE_4.3",
+      "asset_id": "UE",
+      "build_version": "4.3.1-2226335+++depot+UE4-Releases+4.3-2023.1-Mac",
+      "catalog_item_id": "3ddb1bad6e004b99a7192c1a29f2318a",
+      "label_name": "Live-Mac",
+      "metadata": {},
+      "namespace": "ue"
+    },
+    {
+      "app_name": "UE_4.4",
+      "asset_id": "UE",
+      "build_version": "4.4.3-2296771+++depot+UE4-Releases+4.4-2023.1-Mac",
+      "catalog_item_id": "3ddb1bad6e004b99a7192c1a29f2318a",
+      "label_name": "Live-Mac",
+      "metadata": {},
+      "namespace": "ue"
+    },
+    {
+      "app_name": "UE_4.5",
+      "asset_id": "UE",
+      "build_version": "4.5.1-2336687+++depot+UE4-Releases+4.5-2023.1-Mac",
+      "catalog_item_id": "3ddb1bad6e004b99a7192c1a29f2318a",
+      "label_name": "Live-Mac",
+      "metadata": {},
+      "namespace": "ue"
+    },
+    {
+      "app_name": "UE_4.6",
+      "asset_id": "UE",
+      "build_version": "4.6.1-2386410+++depot+UE4-Releases+4.6-2023.1-Mac",
+      "catalog_item_id": "3ddb1bad6e004b99a7192c1a29f2318a",
+      "label_name": "Live-Mac",
+      "metadata": {},
+      "namespace": "ue"
+    },
+    {
+      "app_name": "UE_4.7",
+      "asset_id": "UE",
+      "build_version": "4.7.6-2513093+++depot+UE4-Releases+4.7-2023.1-Mac",
+      "catalog_item_id": "3ddb1bad6e004b99a7192c1a29f2318a",
+      "label_name": "Live-Mac",
+      "metadata": {},
+      "namespace": "ue"
+    },
+    {
+      "app_name": "UE_4.8",
+      "asset_id": "UE",
+      "build_version": "4.8.3-2634408+++depot+UE4-Releases+4.8-2023.1-Mac",
+      "catalog_item_id": "3ddb1bad6e004b99a7192c1a29f2318a",
+      "label_name": "Live-Mac",
+      "metadata": {},
+      "namespace": "ue"
+    },
+    {
+      "app_name": "UE_4.9",
+      "asset_id": "UE",
+      "build_version": "4.9.2-2707645+++depot+UE4-Releases+4.9-2023.1-Mac",
+      "catalog_item_id": "3ddb1bad6e004b99a7192c1a29f2318a",
+      "label_name": "Live-Mac",
+      "metadata": {},
+      "namespace": "ue"
+    },
+    {
+      "app_name": "UE_4.26Chaos",
+      "asset_id": "UE",
+      "build_version": "4.26.2-15903758+++UE4+Release-4.26-Chaos-2023.1-Mac",
+      "catalog_item_id": "5cba2afac392412a99c6b42d04c816e2",
+      "label_name": "Live-Mac",
+      "metadata": {},
+      "namespace": "ue"
+    },
+    {
+      "app_name": "SoulCity419",
+      "asset_id": "SoulCity419",
+      "build_version": "4.18.0-3995868+++depot+UE4-UserContent-Mac",
+      "catalog_item_id": "6a5d9e9fa07a456b9a594db0ceb016c0",
+      "label_name": "Live-Mac",
+      "metadata": {},
+      "namespace": "ue"
+    },
+    {
+      "app_name": "InfinityBladeFireLands",
+      "asset_id": "InfinityBladeFireLands",
+      "build_version": "4.21.0-6937854+++depot+UE4-UserContent-Mac",
+      "catalog_item_id": "904d0336736745e08da0c082e3d14c02",
+      "label_name": "Live-Mac",
+      "metadata": {},
+      "namespace": "ue"
+    },
+    {
+      "app_name": "InfinityBladeWeapons",
+      "asset_id": "InfinityBladeWeapons",
+      "build_version": "4.21.0-6930137+++depot+UE4-UserContent-Mac",
+      "catalog_item_id": "94896689fea14a308a77640f26978304",
+      "label_name": "Live-Mac",
+      "metadata": {},
+      "namespace": "ue"
+    },
+    {
+      "app_name": "InfinityBladeGrassLands",
+      "asset_id": "InfinityBladeGrassLands",
+      "build_version": "4.21.0-6931194+++depot+UE4-UserContent-Mac",
+      "catalog_item_id": "ac4e3132f993440180d69d5ae53a9640",
+      "label_name": "Live-Mac",
+      "metadata": {},
+      "namespace": "ue"
+    },
+    {
+      "app_name": "SoulCave418",
+      "asset_id": "SoulCave418",
+      "build_version": "4.18.0-3851739+++depot+UE4-UserContent-Mac",
+      "catalog_item_id": "c8c0d53d9aab4c509ba6923c51f2b957",
+      "label_name": "Live-Mac",
+      "metadata": {},
+      "namespace": "ue"
+    },
+    {
+      "app_name": "RunebergVRPlugin_4.12",
+      "asset_id": "RunebergVRPlugin",
+      "build_version": "4.12.0-3141258+++depot+UE4-UserContent-Mac",
+      "catalog_item_id": "ca5a21f8ebdb4c02b5df65477e7c68fd",
+      "label_name": "Live-Mac",
+      "metadata": {},
+      "namespace": "ue"
+    },
+    {
+      "app_name": "RunebergVRPlugin_4.13",
+      "asset_id": "RunebergVRPlugin",
+      "build_version": "4.13.0-3174960+++depot+UE4-UserContent-Mac",
+      "catalog_item_id": "ca5a21f8ebdb4c02b5df65477e7c68fd",
+      "label_name": "Live-Mac",
+      "metadata": {},
+      "namespace": "ue"
+    },
+    {
+      "app_name": "RunebergVRPlugin_4.14",
+      "asset_id": "RunebergVRPlugin",
+      "build_version": "4.14.0-3211218+++depot+UE4-UserContent-Mac",
+      "catalog_item_id": "ca5a21f8ebdb4c02b5df65477e7c68fd",
+      "label_name": "Live-Mac",
+      "metadata": {},
+      "namespace": "ue"
+    },
+    {
+      "app_name": "RunebergVRPlugin_4.15",
+      "asset_id": "RunebergVRPlugin",
+      "build_version": "4.15.0-3323983+++depot+UE4-UserContent-Mac",
+      "catalog_item_id": "ca5a21f8ebdb4c02b5df65477e7c68fd",
+      "label_name": "Live-Mac",
+      "metadata": {},
+      "namespace": "ue"
+    },
+    {
+      "app_name": "RunebergVRPlugin_4.16",
+      "asset_id": "RunebergVRPlugin",
+      "build_version": "4.16.0-3671711+++depot+UE4-UserContent-Mac",
+      "catalog_item_id": "ca5a21f8ebdb4c02b5df65477e7c68fd",
+      "label_name": "Live-Mac",
+      "metadata": {},
+      "namespace": "ue"
+    },
+    {
+      "app_name": "RunebergVRPlugin_4.17",
+      "asset_id": "RunebergVRPlugin",
+      "build_version": "4.17.0-3671727+++depot+UE4-UserContent-Mac",
+      "catalog_item_id": "ca5a21f8ebdb4c02b5df65477e7c68fd",
+      "label_name": "Live-Mac",
+      "metadata": {},
+      "namespace": "ue"
+    },
+    {
+      "app_name": "InfinityBladeAdversaries",
+      "asset_id": "InfinityBladeAdversaries",
+      "build_version": "4.21.0-6930575+++depot+UE4-UserContent-Mac",
+      "catalog_item_id": "d2cc1433b55a4ba7b0a76e9485efa1d6",
+      "label_name": "Live-Mac",
+      "metadata": {},
+      "namespace": "ue"
+    },
+    {
+      "app_name": "InfinityBladeIceLands",
+      "asset_id": "InfinityBladeIceLands",
+      "build_version": "4.21.0-6930943+++depot+UE4-UserContent-Mac",
+      "catalog_item_id": "da3c5430dc5846d3a0ec9aa0d631b820",
+      "label_name": "Live-Mac",
+      "metadata": {},
+      "namespace": "ue"
+    },
+    {
+      "app_name": "UE_4.27Chaos",
+      "asset_id": "UE",
+      "build_version": "4.27.2-18386882+++UE4+Release-4.27-Chaos-2023.1-Mac",
+      "catalog_item_id": "ed2b249a315e4493b084233d5167fea3",
+      "label_name": "Live-Mac",
+      "metadata": {},
+      "namespace": "ue"
+    }
+  ],
+  "Windows": [
+    {
+      "app_name": "Freesia",
+      "asset_id": "Freesia",
+      "build_version": "1.0",
+      "catalog_item_id": "4107733638294e9397e7d0bbda5b8734",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "4c00c7506c4b4fa695f749bd6bb07ff6"
+    },
+    {
+      "app_name": "Sugar",
+      "asset_id": "Sugar",
+      "build_version": "BC2_Update43+425548",
+      "catalog_item_id": "530145df28a24424923f5828cc9031a1",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "9773aa1aa54f4f7b80e44bef04986cea"
+    },
+    {
+      "app_name": "Corydalis",
+      "asset_id": "Corydalis",
+      "build_version": "1.4.4_Win64_Release_16",
+      "catalog_item_id": "1e38b618d106430db94b474abbfecc16",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "corydalis"
+    },
+    {
+      "app_name": "CrabEA",
+      "asset_id": "CrabEA",
+      "build_version": "211839.204",
+      "catalog_item_id": "b915dfe8dcf74770841c82a4162dc954",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "crab"
+    },
+    {
+      "app_name": "CrabTest",
+      "asset_id": "CrabTest",
+      "build_version": "240610.343",
+      "catalog_item_id": "ef4a63daa7d4420e91420a72050be89d",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "crab"
+    },
+    {
+      "app_name": "Fortnite",
+      "asset_id": "Fortnite",
+      "build_version": "++Fortnite+Release-25.20-CL-26629111-Windows",
+      "catalog_item_id": "4fe75bbc5a674f4f9b356b5c90567da5",
+      "label_name": "Live-Windows",
+      "metadata": {
+        "installationPoolId": "FortniteInstallationPool"
+      },
+      "namespace": "fn"
+    },
+    {
+      "app_name": "Newt",
+      "asset_id": "Newt",
+      "build_version": "release.15196-7866",
+      "catalog_item_id": "7bfcf6db8dba4f0dbf2a67c3872ffc41",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "newt"
+    },
+    {
+      "app_name": "CarSim_4.19",
+      "asset_id": "CarSim",
+      "build_version": "4.19.1-4165564+++depot+UE4-UserContent-Windows",
+      "catalog_item_id": "0474e4eae8f0402ab147c85267720e25",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "ue"
+    },
+    {
+      "app_name": "CarSim_4.20",
+      "asset_id": "CarSim",
+      "build_version": "4.20.0-4268114+++depot+UE4-UserContent-Windows",
+      "catalog_item_id": "0474e4eae8f0402ab147c85267720e25",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "ue"
+    },
+    {
+      "app_name": "CarSim_4.21",
+      "asset_id": "CarSim",
+      "build_version": "4.21.0-4672017+++depot+UE4-UserContent-Windows",
+      "catalog_item_id": "0474e4eae8f0402ab147c85267720e25",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "ue"
+    },
+    {
+      "app_name": "CarSim_4.22",
+      "asset_id": "CarSim",
+      "build_version": "4.22.0-5867332+++depot+UE4-UserContent-Windows",
+      "catalog_item_id": "0474e4eae8f0402ab147c85267720e25",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "ue"
+    },
+    {
+      "app_name": "CarSim_4.23",
+      "asset_id": "CarSim",
+      "build_version": "4.23.0-10069717+++depot+UE4-UserContent-Windows",
+      "catalog_item_id": "0474e4eae8f0402ab147c85267720e25",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "ue"
+    },
+    {
+      "app_name": "CarSim_4.24",
+      "asset_id": "CarSim",
+      "build_version": "4.24.0-12662997+++depot+UE4-UserContent-Windows",
+      "catalog_item_id": "0474e4eae8f0402ab147c85267720e25",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "ue"
+    },
+    {
+      "app_name": "CarSim_4.25",
+      "asset_id": "CarSim",
+      "build_version": "4.25.0-14076213+++depot+UE4-UserContent-Windows",
+      "catalog_item_id": "0474e4eae8f0402ab147c85267720e25",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "ue"
+    },
+    {
+      "app_name": "CarSim_4.26",
+      "asset_id": "CarSim",
+      "build_version": "4.26.0-14946675+++depot+UE4-UserContent-Windows",
+      "catalog_item_id": "0474e4eae8f0402ab147c85267720e25",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "ue"
+    },
+    {
+      "app_name": "CarSim_4.27",
+      "asset_id": "CarSim",
+      "build_version": "4.27.0-17599024+++depot+UE4-UserContent-Windows",
+      "catalog_item_id": "0474e4eae8f0402ab147c85267720e25",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "ue"
+    },
+    {
+      "app_name": "InfinityBladeWarriors",
+      "asset_id": "InfinityBladeWarriors",
+      "build_version": "4.21.0-6930869+++depot+UE4-UserContent-Windows",
+      "catalog_item_id": "33c13829c0da48199315e9adf8d33c73",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "ue"
+    },
+    {
+      "app_name": "InfinityBladeEffects",
+      "asset_id": "InfinityBladeEffects",
+      "build_version": "4.21.0-6930635+++depot+UE4-UserContent-Windows",
+      "catalog_item_id": "38a3355872ef41bab5d2ba5b21c29eba",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "ue"
+    },
+    {
+      "app_name": "UE_4.0",
+      "asset_id": "UE",
+      "build_version": "4.0.2-2034640+++depot+UE4-Releases+4.0-Windows",
+      "catalog_item_id": "3ddb1bad6e004b99a7192c1a29f2318a",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "ue"
+    },
+    {
+      "app_name": "UE_4.1",
+      "asset_id": "UE",
+      "build_version": "4.1.2-2109544+++depot+UE4-Releases+4.1-Windows",
+      "catalog_item_id": "3ddb1bad6e004b99a7192c1a29f2318a",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "ue"
+    },
+    {
+      "app_name": "UE_4.10",
+      "asset_id": "UE",
+      "build_version": "4.10.4-2872498+++depot+UE4-Releases+4.10-2023.1-Windows",
+      "catalog_item_id": "3ddb1bad6e004b99a7192c1a29f2318a",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "ue"
+    },
+    {
+      "app_name": "UE_4.11",
+      "asset_id": "UE",
+      "build_version": "4.11.2-2946394+++UE4+Release-4.11-2023.1-Windows",
+      "catalog_item_id": "3ddb1bad6e004b99a7192c1a29f2318a",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "ue"
+    },
+    {
+      "app_name": "UE_4.12",
+      "asset_id": "UE",
+      "build_version": "4.12.5-3039270+++UE4+Release-4.12-2023.1-Windows",
+      "catalog_item_id": "3ddb1bad6e004b99a7192c1a29f2318a",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "ue"
+    },
+    {
+      "app_name": "UE_4.13",
+      "asset_id": "UE",
+      "build_version": "4.13.2-3172292+++UE4+Release-4.13-2023.1-Windows",
+      "catalog_item_id": "3ddb1bad6e004b99a7192c1a29f2318a",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "ue"
+    },
+    {
+      "app_name": "UE_4.14",
+      "asset_id": "UE",
+      "build_version": "4.14.3-3249277+++UE4+Release-4.14-2023.1-Windows",
+      "catalog_item_id": "3ddb1bad6e004b99a7192c1a29f2318a",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "ue"
+    },
+    {
+      "app_name": "UE_4.15",
+      "asset_id": "UE",
+      "build_version": "4.15.3-3450819+++UE4+Release-4.15-2023.1-Windows",
+      "catalog_item_id": "3ddb1bad6e004b99a7192c1a29f2318a",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "ue"
+    },
+    {
+      "app_name": "UE_4.16",
+      "asset_id": "UE",
+      "build_version": "4.16.3-3561208+++UE4+Release-4.16-2023.1-Windows",
+      "catalog_item_id": "3ddb1bad6e004b99a7192c1a29f2318a",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "ue"
+    },
+    {
+      "app_name": "UE_4.17",
+      "asset_id": "UE",
+      "build_version": "4.17.2-3658906+++UE4+Release-4.17-2023.1-Windows",
+      "catalog_item_id": "3ddb1bad6e004b99a7192c1a29f2318a",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "ue"
+    },
+    {
+      "app_name": "UE_4.18",
+      "asset_id": "UE",
+      "build_version": "4.18.3-3832480+++UE4+Release-4.18-2023.1-Windows",
+      "catalog_item_id": "3ddb1bad6e004b99a7192c1a29f2318a",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "ue"
+    },
+    {
+      "app_name": "UE_4.19",
+      "asset_id": "UE",
+      "build_version": "4.19.2-4033788+++UE4+Release-4.19-2023.1-Windows",
+      "catalog_item_id": "3ddb1bad6e004b99a7192c1a29f2318a",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "ue"
+    },
+    {
+      "app_name": "UE_4.2",
+      "asset_id": "UE",
+      "build_version": "4.2.1-2101290+++depot+UE4-Releases+4.2-Windows",
+      "catalog_item_id": "3ddb1bad6e004b99a7192c1a29f2318a",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "ue"
+    },
+    {
+      "app_name": "UE_4.20",
+      "asset_id": "UE",
+      "build_version": "4.20.3-4369336+++UE4+Release-4.20-2023.1-Windows",
+      "catalog_item_id": "3ddb1bad6e004b99a7192c1a29f2318a",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "ue"
+    },
+    {
+      "app_name": "UE_4.21",
+      "asset_id": "UE",
+      "build_version": "4.21.2-4753647+++UE4+Release-4.21-2023.1-Windows",
+      "catalog_item_id": "3ddb1bad6e004b99a7192c1a29f2318a",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "ue"
+    },
+    {
+      "app_name": "UE_4.22",
+      "asset_id": "UE",
+      "build_version": "4.22.3-7053642+++UE4+Release-4.22-2023.1-Windows",
+      "catalog_item_id": "3ddb1bad6e004b99a7192c1a29f2318a",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "ue"
+    },
+    {
+      "app_name": "UE_4.23",
+      "asset_id": "UE",
+      "build_version": "4.23.1-9631420+++UE4+Release-4.23-2023.1-Windows",
+      "catalog_item_id": "3ddb1bad6e004b99a7192c1a29f2318a",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "ue"
+    },
+    {
+      "app_name": "UE_4.24",
+      "asset_id": "UE",
+      "build_version": "4.24.3-11590370+++UE4+Release-4.24-2023.1-Windows",
+      "catalog_item_id": "3ddb1bad6e004b99a7192c1a29f2318a",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "ue"
+    },
+    {
+      "app_name": "UE_4.25",
+      "asset_id": "UE",
+      "build_version": "4.25.4-14469661+++UE4+Release-4.25-2023.1-Windows",
+      "catalog_item_id": "3ddb1bad6e004b99a7192c1a29f2318a",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "ue"
+    },
+    {
+      "app_name": "UE_4.26",
+      "asset_id": "UE",
+      "build_version": "4.26.2-15973114+++UE4+Release-4.26-2023.1-Windows",
+      "catalog_item_id": "3ddb1bad6e004b99a7192c1a29f2318a",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "ue"
+    },
+    {
+      "app_name": "UE_4.27",
+      "asset_id": "UE",
+      "build_version": "4.27.2-18319896+++UE4+Release-4.27-2023.1-Windows",
+      "catalog_item_id": "3ddb1bad6e004b99a7192c1a29f2318a",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "ue"
+    },
+    {
+      "app_name": "UE_4.3",
+      "asset_id": "UE",
+      "build_version": "4.3.1-2226335+++depot+UE4-Releases+4.3-2023.1-Windows",
+      "catalog_item_id": "3ddb1bad6e004b99a7192c1a29f2318a",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "ue"
+    },
+    {
+      "app_name": "UE_4.4",
+      "asset_id": "UE",
+      "build_version": "4.4.3-2296771+++depot+UE4-Releases+4.4-2023.1-Windows",
+      "catalog_item_id": "3ddb1bad6e004b99a7192c1a29f2318a",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "ue"
+    },
+    {
+      "app_name": "UE_4.5",
+      "asset_id": "UE",
+      "build_version": "4.5.1-2336687+++depot+UE4-Releases+4.5-2023.1-Windows",
+      "catalog_item_id": "3ddb1bad6e004b99a7192c1a29f2318a",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "ue"
+    },
+    {
+      "app_name": "UE_4.6",
+      "asset_id": "UE",
+      "build_version": "4.6.1-2386410+++depot+UE4-Releases+4.6-2023.1-Windows",
+      "catalog_item_id": "3ddb1bad6e004b99a7192c1a29f2318a",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "ue"
+    },
+    {
+      "app_name": "UE_4.7",
+      "asset_id": "UE",
+      "build_version": "4.7.6-2513093+++depot+UE4-Releases+4.7-2023.1-Windows",
+      "catalog_item_id": "3ddb1bad6e004b99a7192c1a29f2318a",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "ue"
+    },
+    {
+      "app_name": "UE_4.8",
+      "asset_id": "UE",
+      "build_version": "4.8.3-2634408+++depot+UE4-Releases+4.8-2023.1-Windows",
+      "catalog_item_id": "3ddb1bad6e004b99a7192c1a29f2318a",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "ue"
+    },
+    {
+      "app_name": "UE_4.9",
+      "asset_id": "UE",
+      "build_version": "4.9.2-2707645+++depot+UE4-Releases+4.9-2023.1-Windows",
+      "catalog_item_id": "3ddb1bad6e004b99a7192c1a29f2318a",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "ue"
+    },
+    {
+      "app_name": "UE_4.26Chaos",
+      "asset_id": "UE",
+      "build_version": "4.26.2-15903758+++UE4+Release-4.26-Chaos-2023.1-Windows",
+      "catalog_item_id": "5cba2afac392412a99c6b42d04c816e2",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "ue"
+    },
+    {
+      "app_name": "SoulCity419",
+      "asset_id": "SoulCity419",
+      "build_version": "4.18.0-3995868+++depot+UE4-UserContent-Windows",
+      "catalog_item_id": "6a5d9e9fa07a456b9a594db0ceb016c0",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "ue"
+    },
+    {
+      "app_name": "InfinityBladeFireLands",
+      "asset_id": "InfinityBladeFireLands",
+      "build_version": "4.21.0-6937854+++depot+UE4-UserContent-Windows",
+      "catalog_item_id": "904d0336736745e08da0c082e3d14c02",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "ue"
+    },
+    {
+      "app_name": "InfinityBladeWeapons",
+      "asset_id": "InfinityBladeWeapons",
+      "build_version": "4.21.0-6930137+++depot+UE4-UserContent-Windows",
+      "catalog_item_id": "94896689fea14a308a77640f26978304",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "ue"
+    },
+    {
+      "app_name": "InfinityBladeGrassLands",
+      "asset_id": "InfinityBladeGrassLands",
+      "build_version": "4.21.0-6931194+++depot+UE4-UserContent-Windows",
+      "catalog_item_id": "ac4e3132f993440180d69d5ae53a9640",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "ue"
+    },
+    {
+      "app_name": "SoulCave418",
+      "asset_id": "SoulCave418",
+      "build_version": "4.18.0-3851739+++depot+UE4-UserContent-Windows",
+      "catalog_item_id": "c8c0d53d9aab4c509ba6923c51f2b957",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "ue"
+    },
+    {
+      "app_name": "RunebergVRPlugin_4.12",
+      "asset_id": "RunebergVRPlugin",
+      "build_version": "4.12.0-3141258+++depot+UE4-UserContent-Windows",
+      "catalog_item_id": "ca5a21f8ebdb4c02b5df65477e7c68fd",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "ue"
+    },
+    {
+      "app_name": "RunebergVRPlugin_4.13",
+      "asset_id": "RunebergVRPlugin",
+      "build_version": "4.13.0-3174960+++depot+UE4-UserContent-Windows",
+      "catalog_item_id": "ca5a21f8ebdb4c02b5df65477e7c68fd",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "ue"
+    },
+    {
+      "app_name": "RunebergVRPlugin_4.14",
+      "asset_id": "RunebergVRPlugin",
+      "build_version": "4.14.0-3211218+++depot+UE4-UserContent-Windows",
+      "catalog_item_id": "ca5a21f8ebdb4c02b5df65477e7c68fd",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "ue"
+    },
+    {
+      "app_name": "RunebergVRPlugin_4.15",
+      "asset_id": "RunebergVRPlugin",
+      "build_version": "4.15.0-3440836+++depot+UE4-UserContent-Windows",
+      "catalog_item_id": "ca5a21f8ebdb4c02b5df65477e7c68fd",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "ue"
+    },
+    {
+      "app_name": "RunebergVRPlugin_4.16",
+      "asset_id": "RunebergVRPlugin",
+      "build_version": "4.16.0-3722940+++depot+UE4-UserContent-Windows",
+      "catalog_item_id": "ca5a21f8ebdb4c02b5df65477e7c68fd",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "ue"
+    },
+    {
+      "app_name": "RunebergVRPlugin_4.17",
+      "asset_id": "RunebergVRPlugin",
+      "build_version": "4.17.0-3722945+++depot+UE4-UserContent-Windows",
+      "catalog_item_id": "ca5a21f8ebdb4c02b5df65477e7c68fd",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "ue"
+    },
+    {
+      "app_name": "RunebergVRPlugin_4.18",
+      "asset_id": "RunebergVRPlugin",
+      "build_version": "4.18.0-4122235+++depot+UE4-UserContent-Windows",
+      "catalog_item_id": "ca5a21f8ebdb4c02b5df65477e7c68fd",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "ue"
+    },
+    {
+      "app_name": "RunebergVRPlugin_4.19",
+      "asset_id": "RunebergVRPlugin",
+      "build_version": "4.19.1-4122288+++depot+UE4-UserContent-Windows",
+      "catalog_item_id": "ca5a21f8ebdb4c02b5df65477e7c68fd",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "ue"
+    },
+    {
+      "app_name": "RunebergVRPlugin_4.20",
+      "asset_id": "RunebergVRPlugin",
+      "build_version": "4.20.0-4640772+++depot+UE4-UserContent-Windows",
+      "catalog_item_id": "ca5a21f8ebdb4c02b5df65477e7c68fd",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "ue"
+    },
+    {
+      "app_name": "RunebergVRPlugin_4.21",
+      "asset_id": "RunebergVRPlugin",
+      "build_version": "4.21.0-4640772+++depot+UE4-UserContent-Windows",
+      "catalog_item_id": "ca5a21f8ebdb4c02b5df65477e7c68fd",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "ue"
+    },
+    {
+      "app_name": "RunebergVRPlugin_4.22",
+      "asset_id": "RunebergVRPlugin",
+      "build_version": "4.22.0-6429585+++depot+UE4-UserContent-Windows",
+      "catalog_item_id": "ca5a21f8ebdb4c02b5df65477e7c68fd",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "ue"
+    },
+    {
+      "app_name": "RunebergVRPlugin_4.23",
+      "asset_id": "RunebergVRPlugin",
+      "build_version": "4.23.0-9841425+++depot+UE4-UserContent-Windows",
+      "catalog_item_id": "ca5a21f8ebdb4c02b5df65477e7c68fd",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "ue"
+    },
+    {
+      "app_name": "InfinityBladeAdversaries",
+      "asset_id": "InfinityBladeAdversaries",
+      "build_version": "4.21.0-6930575+++depot+UE4-UserContent-Windows",
+      "catalog_item_id": "d2cc1433b55a4ba7b0a76e9485efa1d6",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "ue"
+    },
+    {
+      "app_name": "InfinityBladeIceLands",
+      "asset_id": "InfinityBladeIceLands",
+      "build_version": "4.21.0-6930943+++depot+UE4-UserContent-Windows",
+      "catalog_item_id": "da3c5430dc5846d3a0ec9aa0d631b820",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "ue"
+    },
+    {
+      "app_name": "UE_4.27Chaos",
+      "asset_id": "UE",
+      "build_version": "4.27.2-18386882+++UE4+Release-4.27-Chaos-2023.1-Windows",
+      "catalog_item_id": "ed2b249a315e4493b084233d5167fea3",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "ue"
+    }
+  ]
+}

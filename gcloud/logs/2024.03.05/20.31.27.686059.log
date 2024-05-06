@@ -1,0 +1,7 @@
+2024-03-05 20:31:27,686 DEBUG    root            Loaded Command Group: ['gcloud', 'app']
+2024-03-05 20:31:27,687 DEBUG    root            Loaded Command Group: ['gcloud', 'app', 'logs']
+2024-03-05 20:31:27,692 DEBUG    root            Loaded Command Group: ['gcloud', 'app', 'logs', 'tail']
+2024-03-05 20:31:27,692 ERROR    root            (gcloud.app.logs.tail) unrecognized arguments: default 
+
+To search the help text of gcloud commands, run:
+  gcloud help -- SEARCH_TERMS

@@ -1,0 +1,19 @@
+
+theme = dracula
+
+
+[editor]
+mouse = true
+gutters = ["diagnostics", "line-numbers"]
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "block"
+
+[editor.file-picker]
+hidden = false
+
+[keys.normal]
+
+

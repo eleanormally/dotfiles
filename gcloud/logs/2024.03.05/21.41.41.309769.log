@@ -1,0 +1,184 @@
+2024-03-05 21:41:41,310 DEBUG    root            Loaded Command Group: ['gcloud', 'app']
+2024-03-05 21:41:41,351 DEBUG    root            Loaded Command Group: ['gcloud', 'app', 'deploy']
+2024-03-05 21:41:41,352 DEBUG    root            Running [gcloud.app.deploy] with arguments: []
+2024-03-05 21:41:41,359 DEBUG    root            Loading runtimes experiment config from [gs://runtime-builders/experiments.yaml]
+2024-03-05 21:41:41,369 INFO     root            Reading [<googlecloudsdk.api_lib.storage.storage_util.ObjectReference object at 0x106a4ec50>]
+2024-03-05 21:41:41,517 DEBUG    root            Flex image build option: FlexImageBuildOptions.ON_SERVER
+2024-03-05 21:41:41,528 INFO     root            Executing staging command: [/Users/ellie/google-cloud-sdk/platform/google_appengine/go-app-stager /Users/ellie/Documents/RPI/Classes/ALing/eelsAAA/src/app.yaml /Users/ellie/Documents/RPI/Classes/ALing/eelsAAA/src /var/folders/1y/1wxwnnd51yb6zjv9vq4g5q000000gn/T/tmp9_4j0vue/tmp3ctmc67n]
+
+
+2024-03-05 21:41:41,528 DEBUG    root            Executing command: ['/Users/ellie/google-cloud-sdk/platform/google_appengine/go-app-stager', '/Users/ellie/Documents/RPI/Classes/ALing/eelsAAA/src/app.yaml', '/Users/ellie/Documents/RPI/Classes/ALing/eelsAAA/src', '/var/folders/1y/1wxwnnd51yb6zjv9vq4g5q000000gn/T/tmp9_4j0vue/tmp3ctmc67n']
+2024-03-05 21:41:41,545 INFO     root            ------------------------------------ STDOUT ------------------------------------
+building with dependencies from go.mod
+------------------------------------ STDERR ------------------------------------
+2024/03/05 21:41:41 staging for go1.21
+main-package: .
+copied /Users/ellie/Documents/RPI/Classes/ALing/eelsAAA/src/.env to /var/folders/1y/1wxwnnd51yb6zjv9vq4g5q000000gn/T/tmp9_4j0vue/tmp3ctmc67n/.env
+copied /Users/ellie/Documents/RPI/Classes/ALing/eelsAAA/src/.gcloudignore to /var/folders/1y/1wxwnnd51yb6zjv9vq4g5q000000gn/T/tmp9_4j0vue/tmp3ctmc67n/.gcloudignore
+copied /Users/ellie/Documents/RPI/Classes/ALing/eelsAAA/src/app.yaml to /var/folders/1y/1wxwnnd51yb6zjv9vq4g5q000000gn/T/tmp9_4j0vue/tmp3ctmc67n/app.yaml
+copied /Users/ellie/Documents/RPI/Classes/ALing/eelsAAA/src/components/base.templ to /var/folders/1y/1wxwnnd51yb6zjv9vq4g5q000000gn/T/tmp9_4j0vue/tmp3ctmc67n/components/base.templ
+copied /Users/ellie/Documents/RPI/Classes/ALing/eelsAAA/src/components/base_templ.go to /var/folders/1y/1wxwnnd51yb6zjv9vq4g5q000000gn/T/tmp9_4j0vue/tmp3ctmc67n/components/base_templ.go
+copied /Users/ellie/Documents/RPI/Classes/ALing/eelsAAA/src/components/test.templ to /var/folders/1y/1wxwnnd51yb6zjv9vq4g5q000000gn/T/tmp9_4j0vue/tmp3ctmc67n/components/test.templ
+copied /Users/ellie/Documents/RPI/Classes/ALing/eelsAAA/src/components/test_templ.go to /var/folders/1y/1wxwnnd51yb6zjv9vq4g5q000000gn/T/tmp9_4j0vue/tmp3ctmc67n/components/test_templ.go
+copied /Users/ellie/Documents/RPI/Classes/ALing/eelsAAA/src/exec to /var/folders/1y/1wxwnnd51yb6zjv9vq4g5q000000gn/T/tmp9_4j0vue/tmp3ctmc67n/exec
+copied /Users/ellie/Documents/RPI/Classes/ALing/eelsAAA/src/go.mod to /var/folders/1y/1wxwnnd51yb6zjv9vq4g5q000000gn/T/tmp9_4j0vue/tmp3ctmc67n/go.mod
+copied /Users/ellie/Documents/RPI/Classes/ALing/eelsAAA/src/go.sum to /var/folders/1y/1wxwnnd51yb6zjv9vq4g5q000000gn/T/tmp9_4j0vue/tmp3ctmc67n/go.sum
+copied /Users/ellie/Documents/RPI/Classes/ALing/eelsAAA/src/handleResult.go to /var/folders/1y/1wxwnnd51yb6zjv9vq4g5q000000gn/T/tmp9_4j0vue/tmp3ctmc67n/handleResult.go
+copied /Users/ellie/Documents/RPI/Classes/ALing/eelsAAA/src/main.go to /var/folders/1y/1wxwnnd51yb6zjv9vq4g5q000000gn/T/tmp9_4j0vue/tmp3ctmc67n/main.go
+copied /Users/ellie/Documents/RPI/Classes/ALing/eelsAAA/src/testPage.go to /var/folders/1y/1wxwnnd51yb6zjv9vq4g5q000000gn/T/tmp9_4j0vue/tmp3ctmc67n/testPage.go
+--------------------------------------------------------------------------------
+
+2024-03-05 21:41:41,546 DEBUG    root            API endpoint: [https://appengine.googleapis.com/], API version: [v1]
+2024-03-05 21:41:41,550 DEBUG    google.auth.transport.requests Making request: POST https://oauth2.googleapis.com/token
+2024-03-05 21:41:41,553 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2024-03-05 21:41:41,705 DEBUG    urllib3.connectionpool https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2024-03-05 21:41:41,962 INFO     ___FILE_ONLY___ Services to deploy:
+
+
+2024-03-05 21:41:41,963 INFO     ___FILE_ONLY___ descriptor:                  [/Users/ellie/Documents/RPI/Classes/ALing/eelsAAA/src/app.yaml]
+source:                      [/Users/ellie/Documents/RPI/Classes/ALing/eelsAAA/src]
+target project:              [eelsaaa]
+target service:              [default]
+target version:              [20240305t214141]
+target url:                  [https://eelsaaa.ue.r.appspot.com]
+target service account:      [eelsaaa@appspot.gserviceaccount.com]
+
+
+
+2024-03-05 21:41:43,241 DEBUG    root            No bucket specified, retrieving default bucket.
+2024-03-05 21:41:43,243 DEBUG    root            Using bucket [gs://staging.eelsaaa.appspot.com].
+2024-03-05 21:41:43,385 INFO     ___FILE_ONLY___ Beginning deployment of service [default]...
+
+2024-03-05 21:41:43,386 INFO     root            Using ignore file at [/Users/ellie/Documents/RPI/Classes/ALing/eelsAAA/src/.gcloudignore].
+2024-03-05 21:41:43,388 DEBUG    root            Skipping file [.gcloudignore]
+2024-03-05 21:41:43,413 DEBUG    root            Could not call git with args ('config', '--get-regexp', 'remote\\.(.*)\\.url'): Command '['git', 'config', '--get-regexp', 'remote\\.(.*)\\.url']' returned non-zero exit status 1.
+2024-03-05 21:41:43,413 INFO     root            Could not find any remote repositories associated with [/var/folders/1y/1wxwnnd51yb6zjv9vq4g5q000000gn/T/tmp9_4j0vue/tmp3ctmc67n]. Cloud diagnostic tools may not be able to display the correct source code for this deployment.
+2024-03-05 21:41:43,691 DEBUG    root            Skipping upload of [app.yaml]
+2024-03-05 21:41:43,691 INFO     root            Incremental upload skipped 100.0% of data
+2024-03-05 21:41:43,691 DEBUG    root            Skipping upload of [go.mod]
+2024-03-05 21:41:43,691 INFO     root            Incremental upload skipped 100.0% of data
+2024-03-05 21:41:43,691 DEBUG    root            Skipping upload of [go.sum]
+2024-03-05 21:41:43,691 INFO     root            Incremental upload skipped 100.0% of data
+2024-03-05 21:41:43,692 DEBUG    root            Skipping upload of [handleResult.go]
+2024-03-05 21:41:43,692 INFO     root            Incremental upload skipped 100.0% of data
+2024-03-05 21:41:43,692 DEBUG    root            Skipping upload of [_main-package-path]
+2024-03-05 21:41:43,692 INFO     root            Incremental upload skipped 100.0% of data
+2024-03-05 21:41:43,692 DEBUG    root            Skipping upload of [.env]
+2024-03-05 21:41:43,692 INFO     root            Incremental upload skipped 100.0% of data
+2024-03-05 21:41:43,692 DEBUG    root            Skipping upload of [exec]
+2024-03-05 21:41:43,692 INFO     root            Incremental upload skipped 100.0% of data
+2024-03-05 21:41:43,692 DEBUG    root            Skipping upload of [testPage.go]
+2024-03-05 21:41:43,692 INFO     root            Incremental upload skipped 100.0% of data
+2024-03-05 21:41:43,692 DEBUG    root            Skipping upload of [main.go]
+2024-03-05 21:41:43,692 INFO     root            Incremental upload skipped 100.0% of data
+2024-03-05 21:41:43,692 DEBUG    root            Skipping upload of [components/base.templ]
+2024-03-05 21:41:43,692 INFO     root            Incremental upload skipped 100.0% of data
+2024-03-05 21:41:43,692 DEBUG    root            Skipping upload of [components/test.templ]
+2024-03-05 21:41:43,692 INFO     root            Incremental upload skipped 100.0% of data
+2024-03-05 21:41:43,692 DEBUG    root            Skipping upload of [components/base_templ.go]
+2024-03-05 21:41:43,692 INFO     root            Incremental upload skipped 100.0% of data
+2024-03-05 21:41:43,692 DEBUG    root            Skipping upload of [components/test_templ.go]
+2024-03-05 21:41:43,692 INFO     root            Incremental upload skipped 100.0% of data
+2024-03-05 21:41:43,693 DEBUG    root            Uploading 0 files to Google Cloud Storage
+2024-03-05 21:41:43,693 DEBUG    root            Using [16] threads
+2024-03-05 21:41:43,694 INFO     ___FILE_ONLY___ ╔════════════════════════════════════════════════════════════╗
+
+2024-03-05 21:41:43,694 INFO     ___FILE_ONLY___ ╠═ Uploading 0 files to Google Cloud Storage                ═╣
+
+2024-03-05 21:41:43,694 INFO     ___FILE_ONLY___ ╚
+2024-03-05 21:41:43,696 INFO     ___FILE_ONLY___ ════════════════════════════════════════════════════════════
+2024-03-05 21:41:43,696 INFO     ___FILE_ONLY___ ╝
+
+2024-03-05 21:41:43,696 INFO     ___FILE_ONLY___ File upload done.
+
+2024-03-05 21:41:43,696 INFO     root            Manifest: [{'app.yaml': {'sourceUrl': 'https://storage.googleapis.com/staging.eelsaaa.appspot.com/0f60f51096c100cff617d2c6297e559f02f4a642', 'sha1Sum': '0f60f51096c100cff617d2c6297e559f02f4a642'}, 'go.mod': {'sourceUrl': 'https://storage.googleapis.com/staging.eelsaaa.appspot.com/940b55d1fa8ea72cc628c7076144073c431e7539', 'sha1Sum': '940b55d1fa8ea72cc628c7076144073c431e7539'}, 'go.sum': {'sourceUrl': 'https://storage.googleapis.com/staging.eelsaaa.appspot.com/1a132ac0a66009e08b8aff8100c20bd987fecb1b', 'sha1Sum': '1a132ac0a66009e08b8aff8100c20bd987fecb1b'}, 'handleResult.go': {'sourceUrl': 'https://storage.googleapis.com/staging.eelsaaa.appspot.com/ff60bad10aaa52edce49bc909295a7591b66ee55', 'sha1Sum': 'ff60bad10aaa52edce49bc909295a7591b66ee55'}, '_main-package-path': {'sourceUrl': 'https://storage.googleapis.com/staging.eelsaaa.appspot.com/3a52ce780950d4d969792a2559cd519d7ee8c727', 'sha1Sum': '3a52ce780950d4d969792a2559cd519d7ee8c727'}, '.env': {'sourceUrl': 'https://storage.googleapis.com/staging.eelsaaa.appspot.com/03c8adfed6eeef9ca097b59d01706aa54ff56f17', 'sha1Sum': '03c8adfed6eeef9ca097b59d01706aa54ff56f17'}, 'exec': {'sourceUrl': 'https://storage.googleapis.com/staging.eelsaaa.appspot.com/9957c728cca8152ecc0a01c929aa4732d145d57e', 'sha1Sum': '9957c728cca8152ecc0a01c929aa4732d145d57e'}, 'testPage.go': {'sourceUrl': 'https://storage.googleapis.com/staging.eelsaaa.appspot.com/3ad31792e1e323ae080932a359af3116ac76bd8d', 'sha1Sum': '3ad31792e1e323ae080932a359af3116ac76bd8d'}, 'main.go': {'sourceUrl': 'https://storage.googleapis.com/staging.eelsaaa.appspot.com/d8579d3e71fa20138bc9eb5c7073374ecafa5cf0', 'sha1Sum': 'd8579d3e71fa20138bc9eb5c7073374ecafa5cf0'}, 'components/base.templ': {'sourceUrl': 'https://storage.googleapis.com/staging.eelsaaa.appspot.com/c96a7064409ef75967a16d1463b01047ef20bf15', 'sha1Sum': 'c96a7064409ef75967a16d1463b01047ef20bf15'}, 'components/test.templ': {'sourceUrl': 'https://storage.googleapis.com/staging.eelsaaa.appspot.com/287811350f64f1784ac0a6ec4777e0aa500c0046', 'sha1Sum': '287811350f64f1784ac0a6ec4777e0aa500c0046'}, 'components/base_templ.go': {'sourceUrl': 'https://storage.googleapis.com/staging.eelsaaa.appspot.com/ffc6808c0c64b0c847c2576d0e05b4406b8fa14b', 'sha1Sum': 'ffc6808c0c64b0c847c2576d0e05b4406b8fa14b'}, 'components/test_templ.go': {'sourceUrl': 'https://storage.googleapis.com/staging.eelsaaa.appspot.com/e80413a296376bd2beff221ae91d62574ad4380b', 'sha1Sum': 'e80413a296376bd2beff221ae91d62574ad4380b'}}]
+2024-03-05 21:41:43,697 DEBUG    root            Converted YAML to JSON: "{
+  "entrypoint": {
+    "shell": ""
+  },
+  "envVariables": {
+    "DATABASE_URL": "website:A62&k!05x&C2okFI@database-1.cp62g286s9a0.us-east-2.rds.amazonaws.com:5432/eelsaaa"
+  },
+  "runtime": "go121"
+}"
+2024-03-05 21:41:43,930 DEBUG    root            Operation [apps/eelsaaa/operations/5cd985ba-bcf7-4d58-af76-23e6c98c3fe3] not complete. Waiting to retry.
+2024-03-05 21:41:43,931 INFO     ___FILE_ONLY___ Updating service [default]...
+2024-03-05 21:41:45,075 DEBUG    root            Operation [apps/eelsaaa/operations/5cd985ba-bcf7-4d58-af76-23e6c98c3fe3] not complete. Waiting to retry.
+2024-03-05 21:41:50,953 DEBUG    root            Operation [apps/eelsaaa/operations/5cd985ba-bcf7-4d58-af76-23e6c98c3fe3] not complete. Waiting to retry.
+2024-03-05 21:41:56,788 DEBUG    root            Operation [apps/eelsaaa/operations/5cd985ba-bcf7-4d58-af76-23e6c98c3fe3] not complete. Waiting to retry.
+2024-03-05 21:42:02,895 DEBUG    root            Operation [apps/eelsaaa/operations/5cd985ba-bcf7-4d58-af76-23e6c98c3fe3] not complete. Waiting to retry.
+2024-03-05 21:42:08,289 DEBUG    root            Operation [apps/eelsaaa/operations/5cd985ba-bcf7-4d58-af76-23e6c98c3fe3] not complete. Waiting to retry.
+2024-03-05 21:42:13,584 DEBUG    root            Operation [apps/eelsaaa/operations/5cd985ba-bcf7-4d58-af76-23e6c98c3fe3] not complete. Waiting to retry.
+2024-03-05 21:42:19,532 DEBUG    root            Operation [apps/eelsaaa/operations/5cd985ba-bcf7-4d58-af76-23e6c98c3fe3] not complete. Waiting to retry.
+2024-03-05 21:42:24,823 DEBUG    root            Operation [apps/eelsaaa/operations/5cd985ba-bcf7-4d58-af76-23e6c98c3fe3] not complete. Waiting to retry.
+2024-03-05 21:42:30,662 DEBUG    root            Operation [apps/eelsaaa/operations/5cd985ba-bcf7-4d58-af76-23e6c98c3fe3] not complete. Waiting to retry.
+2024-03-05 21:42:36,420 DEBUG    root            Operation [apps/eelsaaa/operations/5cd985ba-bcf7-4d58-af76-23e6c98c3fe3] not complete. Waiting to retry.
+2024-03-05 21:42:42,237 DEBUG    root            Operation [apps/eelsaaa/operations/5cd985ba-bcf7-4d58-af76-23e6c98c3fe3] not complete. Waiting to retry.
+2024-03-05 21:42:47,612 DEBUG    root            Operation [apps/eelsaaa/operations/5cd985ba-bcf7-4d58-af76-23e6c98c3fe3] not complete. Waiting to retry.
+2024-03-05 21:42:52,982 DEBUG    root            Operation [apps/eelsaaa/operations/5cd985ba-bcf7-4d58-af76-23e6c98c3fe3] not complete. Waiting to retry.
+2024-03-05 21:42:58,920 DEBUG    root            Operation [apps/eelsaaa/operations/5cd985ba-bcf7-4d58-af76-23e6c98c3fe3] not complete. Waiting to retry.
+2024-03-05 21:43:04,256 DEBUG    root            Operation [apps/eelsaaa/operations/5cd985ba-bcf7-4d58-af76-23e6c98c3fe3] complete. Result: {
+    "done": true,
+    "metadata": {
+        "@type": "type.googleapis.com/google.appengine.v1.OperationMetadataV1",
+        "endTime": "2024-03-06T02:43:03.754Z",
+        "insertTime": "2024-03-06T02:41:43.860Z",
+        "method": "google.appengine.v1.Versions.CreateVersion",
+        "target": "apps/eelsaaa/services/default/versions/20240305t214141",
+        "user": "eleanorkolson@gmail.com"
+    },
+    "name": "apps/eelsaaa/operations/5cd985ba-bcf7-4d58-af76-23e6c98c3fe3",
+    "response": {
+        "@type": "type.googleapis.com/google.appengine.v1.Version",
+        "createTime": "2024-03-06T02:42:57Z",
+        "diskUsageBytes": "28795400",
+        "env": "standard",
+        "id": "20240305t214141",
+        "instanceClass": "F1",
+        "name": "apps/eelsaaa/services/default/versions/20240305t214141",
+        "network": {},
+        "runtime": "go121",
+        "runtimeChannel": "default",
+        "servingStatus": "SERVING",
+        "threadsafe": true,
+        "versionUrl": "https://20240305t214141-dot-eelsaaa.appspot.com"
+    }
+}
+2024-03-05 21:43:04,630 DEBUG    root            Operation [apps/eelsaaa/operations/ae5005ca-3d61-41e2-ab6a-fdc134ed8aee] not complete. Waiting to retry.
+2024-03-05 21:43:04,633 INFO     ___FILE_ONLY___ Setting traffic split for service [default]...
+2024-03-05 21:43:05,770 DEBUG    root            Operation [apps/eelsaaa/operations/ae5005ca-3d61-41e2-ab6a-fdc134ed8aee] not complete. Waiting to retry.
+2024-03-05 21:43:11,447 DEBUG    root            Operation [apps/eelsaaa/operations/ae5005ca-3d61-41e2-ab6a-fdc134ed8aee] complete. Result: {
+    "done": true,
+    "metadata": {
+        "@type": "type.googleapis.com/google.appengine.v1.OperationMetadataV1",
+        "endTime": "2024-03-06T02:43:09.328Z",
+        "insertTime": "2024-03-06T02:43:04.608Z",
+        "method": "google.appengine.v1.Services.UpdateService",
+        "target": "apps/eelsaaa/services/default",
+        "user": "eleanorkolson@gmail.com"
+    },
+    "name": "apps/eelsaaa/operations/ae5005ca-3d61-41e2-ab6a-fdc134ed8aee",
+    "response": {
+        "@type": "type.googleapis.com/google.appengine.v1.Service",
+        "id": "default",
+        "name": "apps/eelsaaa/services/default",
+        "split": {
+            "allocations": {
+                "20240305t214141": 1
+            }
+        }
+    }
+}
+2024-03-05 21:43:11,556 INFO     root            Previous default version [eelsaaa/default/20240305t213340] is an automatically scaled standard environment app, so not stopping it.
+2024-03-05 21:43:11,557 INFO     ___FILE_ONLY___ Deployed service [default] to [https://eelsaaa.ue.r.appspot.com]
+
+2024-03-05 21:43:11,565 INFO     ___FILE_ONLY___ 
+You can stream logs from the command line by running:
+  $ gcloud app logs tail -s default
+
+2024-03-05 21:43:11,566 INFO     ___FILE_ONLY___ 
+To view your application in the web browser run:
+  $ gcloud app browse
+
+2024-03-05 21:43:11,566 DEBUG    root            Chosen display Format:none
+2024-03-05 21:43:11,567 INFO     root            Display format: "none"

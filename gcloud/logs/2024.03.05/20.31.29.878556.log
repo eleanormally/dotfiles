@@ -1,0 +1,18 @@
+2024-03-05 20:31:29,878 DEBUG    root            Loaded Command Group: ['gcloud', 'app']
+2024-03-05 20:31:29,879 DEBUG    root            Loaded Command Group: ['gcloud', 'app', 'logs']
+2024-03-05 20:31:29,884 DEBUG    root            Loaded Command Group: ['gcloud', 'app', 'logs', 'tail']
+2024-03-05 20:31:29,885 DEBUG    root            Running [gcloud.app.logs.tail] with arguments: []
+2024-03-05 20:31:29,885 INFO     ___FILE_ONLY___ Waiting for new log entries...
+
+2024-03-05 20:32:11,141 DEBUG    root            start timestamp: None
+2024-03-05 20:33:09,005 INFO     ___FILE_ONLY___ 2024-03-06 01:28:43 default[20240305t202527]  "GET / HTTP/1.1" 503
+
+2024-03-05 20:34:32,267 INFO     ___FILE_ONLY___ 2024-03-06 01:30:17 default[20240305t202527]  "GET / HTTP/1.1" 503
+
+2024-03-05 20:34:34,016 INFO     ___FILE_ONLY___ 2024-03-06 01:30:22 default[20240305t202527]  "GET / HTTP/1.1" 503
+
+2024-03-05 20:34:49,537 INFO     ___FILE_ONLY___ 
+
+Command killed by keyboard interrupt
+
+

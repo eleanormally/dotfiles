@@ -1,0 +1,62 @@
+{
+  "$schema" : "https:\/\/schema.linearmouse.app\/0.9.5",
+  "schemes" : [
+    {
+      "pointer" : {
+        "speed" : 0.06,
+        "disableAcceleration" : false,
+        "acceleration" : 1.5439
+      },
+      "if" : {
+        "device" : {
+          "vendorID" : "0x46d",
+          "productID" : "0xb031",
+          "category" : "mouse",
+          "productName" : "LIFT",
+          "serialNumber" : "E592B507"
+        }
+      }
+    },
+    {
+      "if" : {
+        "device" : {
+          "serialNumber" : "84-fc-fe-e1-bb-b8",
+          "productName" : "Apple Wireless Trackpad",
+          "productID" : "0x30e",
+          "vendorID" : "0x5ac",
+          "category" : "trackpad"
+        }
+      },
+      "pointer" : {
+        "speed" : 0.1
+      }
+    },
+    {
+      "pointer" : {
+        "disableAcceleration" : false
+      },
+      "if" : {
+        "device" : {
+          "productID" : "0x342",
+          "vendorID" : "0x5ac",
+          "category" : "trackpad",
+          "productName" : "Apple Internal Keyboard \/ Trackpad"
+        }
+      }
+    },
+    {
+      "if" : {
+        "device" : {
+          "productName" : "G502 HERO Gaming Mouse",
+          "vendorID" : "0x46d",
+          "serialNumber" : "057939603530",
+          "category" : "mouse",
+          "productID" : "0xc08b"
+        }
+      },
+      "pointer" : {
+        "disableAcceleration" : true
+      }
+    }
+  ]
+}

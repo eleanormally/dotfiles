@@ -1,0 +1,7 @@
+2024-03-05 21:44:21,097 DEBUG    root            Loaded Command Group: ['gcloud', 'app']
+2024-03-05 21:44:21,116 DEBUG    root            Loaded Command Group: ['gcloud', 'app', 'browse']
+2024-03-05 21:44:21,117 DEBUG    root            Running [gcloud.app.browse] with arguments: []
+2024-03-05 21:44:21,409 INFO     ___FILE_ONLY___ Opening [https://eelsaaa.ue.r.appspot.com] in a new tab in your default browser.
+
+2024-03-05 21:44:21,544 DEBUG    root            Chosen display Format:value(url)
+2024-03-05 21:44:21,545 INFO     root            Display format: "value(url)"

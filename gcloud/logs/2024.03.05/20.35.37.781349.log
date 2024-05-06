@@ -1,0 +1,64 @@
+2024-03-05 20:35:37,781 DEBUG    root            Loaded Command Group: ['gcloud', 'app']
+2024-03-05 20:35:37,813 DEBUG    root            Loaded Command Group: ['gcloud', 'app', 'deploy']
+2024-03-05 20:35:37,814 DEBUG    root            Running [gcloud.app.deploy] with arguments: []
+2024-03-05 20:35:37,966 DEBUG    root            Loading runtimes experiment config from [gs://runtime-builders/experiments.yaml]
+2024-03-05 20:35:37,976 INFO     root            Reading [<googlecloudsdk.api_lib.storage.storage_util.ObjectReference object at 0x1065240d0>]
+2024-03-05 20:35:38,136 DEBUG    root            Flex image build option: FlexImageBuildOptions.ON_SERVER
+2024-03-05 20:35:38,149 INFO     root            Executing staging command: [/Users/ellie/google-cloud-sdk/platform/google_appengine/go-app-stager /Users/ellie/Documents/RPI/Classes/ALing/eelsAAA/src/app.yaml /Users/ellie/Documents/RPI/Classes/ALing/eelsAAA/src /var/folders/1y/1wxwnnd51yb6zjv9vq4g5q000000gn/T/tmp3ojmuvo3/tmpz2mstiio]
+
+
+2024-03-05 20:35:38,149 DEBUG    root            Executing command: ['/Users/ellie/google-cloud-sdk/platform/google_appengine/go-app-stager', '/Users/ellie/Documents/RPI/Classes/ALing/eelsAAA/src/app.yaml', '/Users/ellie/Documents/RPI/Classes/ALing/eelsAAA/src', '/var/folders/1y/1wxwnnd51yb6zjv9vq4g5q000000gn/T/tmp3ojmuvo3/tmpz2mstiio']
+2024-03-05 20:35:38,168 INFO     root            ------------------------------------ STDOUT ------------------------------------
+building with dependencies from go.mod
+------------------------------------ STDERR ------------------------------------
+2024/03/05 20:35:38 staging for go1.21
+main-package: .
+copied /Users/ellie/Documents/RPI/Classes/ALing/eelsAAA/src/.env to /var/folders/1y/1wxwnnd51yb6zjv9vq4g5q000000gn/T/tmp3ojmuvo3/tmpz2mstiio/.env
+copied /Users/ellie/Documents/RPI/Classes/ALing/eelsAAA/src/.gcloudignore to /var/folders/1y/1wxwnnd51yb6zjv9vq4g5q000000gn/T/tmp3ojmuvo3/tmpz2mstiio/.gcloudignore
+copied /Users/ellie/Documents/RPI/Classes/ALing/eelsAAA/src/app.yaml to /var/folders/1y/1wxwnnd51yb6zjv9vq4g5q000000gn/T/tmp3ojmuvo3/tmpz2mstiio/app.yaml
+copied /Users/ellie/Documents/RPI/Classes/ALing/eelsAAA/src/components/base.templ to /var/folders/1y/1wxwnnd51yb6zjv9vq4g5q000000gn/T/tmp3ojmuvo3/tmpz2mstiio/components/base.templ
+copied /Users/ellie/Documents/RPI/Classes/ALing/eelsAAA/src/components/base_templ.go to /var/folders/1y/1wxwnnd51yb6zjv9vq4g5q000000gn/T/tmp3ojmuvo3/tmpz2mstiio/components/base_templ.go
+copied /Users/ellie/Documents/RPI/Classes/ALing/eelsAAA/src/components/test.templ to /var/folders/1y/1wxwnnd51yb6zjv9vq4g5q000000gn/T/tmp3ojmuvo3/tmpz2mstiio/components/test.templ
+copied /Users/ellie/Documents/RPI/Classes/ALing/eelsAAA/src/components/test_templ.go to /var/folders/1y/1wxwnnd51yb6zjv9vq4g5q000000gn/T/tmp3ojmuvo3/tmpz2mstiio/components/test_templ.go
+copied /Users/ellie/Documents/RPI/Classes/ALing/eelsAAA/src/exec to /var/folders/1y/1wxwnnd51yb6zjv9vq4g5q000000gn/T/tmp3ojmuvo3/tmpz2mstiio/exec
+copied /Users/ellie/Documents/RPI/Classes/ALing/eelsAAA/src/go.mod to /var/folders/1y/1wxwnnd51yb6zjv9vq4g5q000000gn/T/tmp3ojmuvo3/tmpz2mstiio/go.mod
+copied /Users/ellie/Documents/RPI/Classes/ALing/eelsAAA/src/go.sum to /var/folders/1y/1wxwnnd51yb6zjv9vq4g5q000000gn/T/tmp3ojmuvo3/tmpz2mstiio/go.sum
+copied /Users/ellie/Documents/RPI/Classes/ALing/eelsAAA/src/handleResult.go to /var/folders/1y/1wxwnnd51yb6zjv9vq4g5q000000gn/T/tmp3ojmuvo3/tmpz2mstiio/handleResult.go
+copied /Users/ellie/Documents/RPI/Classes/ALing/eelsAAA/src/main.go to /var/folders/1y/1wxwnnd51yb6zjv9vq4g5q000000gn/T/tmp3ojmuvo3/tmpz2mstiio/main.go
+copied /Users/ellie/Documents/RPI/Classes/ALing/eelsAAA/src/testPage.go to /var/folders/1y/1wxwnnd51yb6zjv9vq4g5q000000gn/T/tmp3ojmuvo3/tmpz2mstiio/testPage.go
+--------------------------------------------------------------------------------
+
+2024-03-05 20:35:38,169 DEBUG    root            API endpoint: [https://appengine.googleapis.com/], API version: [v1]
+2024-03-05 20:35:38,172 DEBUG    google.auth.transport.requests Making request: POST https://oauth2.googleapis.com/token
+2024-03-05 20:35:38,215 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2024-03-05 20:35:38,365 DEBUG    urllib3.connectionpool https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2024-03-05 20:35:38,674 INFO     ___FILE_ONLY___ Services to deploy:
+
+
+2024-03-05 20:35:38,676 INFO     ___FILE_ONLY___ descriptor:                  [/Users/ellie/Documents/RPI/Classes/ALing/eelsAAA/src/app.yaml]
+source:                      [/Users/ellie/Documents/RPI/Classes/ALing/eelsAAA/src]
+target project:              [eelsaaa]
+target service:              [default]
+target version:              [20240305t203538]
+target url:                  [https://eelsaaa.ue.r.appspot.com]
+target service account:      [eelsaaa@appspot.gserviceaccount.com]
+
+
+
+2024-03-05 20:36:22,079 DEBUG    root            (gcloud.app.deploy) Aborted by user.
+Traceback (most recent call last):
+  File "/Users/ellie/google-cloud-sdk/lib/googlecloudsdk/calliope/cli.py", line 987, in Execute
+    resources = calliope_command.Run(cli=self, args=args)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ellie/google-cloud-sdk/lib/googlecloudsdk/calliope/backend.py", line 807, in Run
+    resources = command_instance.Run(args)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ellie/google-cloud-sdk/lib/surface/app/deploy.py", line 127, in Run
+    return deploy_util.RunDeploy(
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ellie/google-cloud-sdk/lib/googlecloudsdk/command_lib/app/deploy_util.py", line 665, in RunDeploy
+    console_io.PromptContinue(cancel_on_no=True)
+  File "/Users/ellie/google-cloud-sdk/lib/googlecloudsdk/core/console/console_io.py", line 305, in PromptContinue
+    raise OperationCancelledError(cancel_string)
+googlecloudsdk.core.console.console_io.OperationCancelledError: Aborted by user.
+2024-03-05 20:36:22,082 ERROR    root            (gcloud.app.deploy) Aborted by user.

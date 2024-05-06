@@ -1,0 +1,57 @@
+{
+	"motd": {
+		"cloudBuildErrorAfter": 1594252800000,
+		"cloudBuildWarnAfter": 1590019200000,
+		"defaultNode10After": 1594252800000,
+		"minVersion": "3.0.5",
+		"node8DeploysDisabledAfter": 1613390400000,
+		"node8RuntimeDisabledAfter": 1615809600000,
+		"node8WarnAfter": 1600128000000,
+		"fetched": 1686865933450
+	},
+	"activeProjects": {
+		"/Users/ellie/Documents/Programming/skewax-backend": "skewax",
+		"/Users/ellie/Documents/Programming/skewax": "skewax",
+		"/Users/ellie/Documents/Programming/gan-who/cloud-functions": "gan-who-94594",
+		"/Users/ellie/Documents/Programming/gan-who/firebase": "gan-who-94594"
+	},
+	"adminsdkconfig": {
+		"skewax": {
+			"projectId": "skewax",
+			"storageBucket": "skewax.appspot.com",
+			"locationId": "us-central"
+		},
+		"gan-who-94594": {
+			"projectId": "gan-who-94594",
+			"databaseURL": "https://gan-who-94594-default-rtdb.firebaseio.com",
+			"storageBucket": "gan-who-94594.appspot.com",
+			"locationId": "us-central"
+		}
+	},
+	"additionalAccounts": [],
+	"activeAccounts": {},
+	"analytics-uuid": "19c12464-bbee-4e0f-982c-f8dd98274f58",
+	"usage": true,
+	"user": {
+		"iss": "accounts.google.com",
+		"azp": "563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com",
+		"aud": "563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com",
+		"sub": "113002967410267877402",
+		"email": "eleanorkolson@gmail.com",
+		"email_verified": true,
+		"at_hash": "O0kTwK3aa_6cFNeQitO1gg",
+		"iat": 1686701986,
+		"exp": 1686705586
+	},
+	"tokens": {
+		"expires_at": 1686872307328,
+		"refresh_token": "1//01R2h4kHqzvekCgYIARAAGAESNwF-L9IraaFgGooF6UcX5yDESZT7HN7x-iJcQnNlsny3YpGycHe1EwKUlx5laRSsc2HLE58FuVE",
+		"scopes": [],
+		"access_token": "ya29.a0AWY7CklolyM2Cd4mu6-FBnxlSwcfkqNtxqlZ1v7c37HQlNKwVt0nuqZ_w9Jz73pL6dT0zeYbyVj_Mfu936qnsEKEuUS_3xoVQ21N1eU3D8D01fhbCylbg0IwJoL5HMzf3cMkt2vQfAZbGVmGclwmUvpEBcHbbRRyABzyzgaCgYKAZgSARESFQG1tDrpRvxivx9UC1U3CqsT3do01g0173",
+		"expires_in": 3599,
+		"scope": "https://www.googleapis.com/auth/firebase openid https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/cloud-platform",
+		"token_type": "Bearer",
+		"id_token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjA1MTUwYTEzMjBiOTM5NWIwNTcxNjg3NzM3NjkyODUwOWJhYjQ0YWMiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJhY2NvdW50cy5nb29nbGUuY29tIiwiYXpwIjoiNTYzNTg0MzM1ODY5LWZncmhnbWQ0N2JxbmVraWo1aThiNXByMDNobzg0OWU2LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiYXVkIjoiNTYzNTg0MzM1ODY5LWZncmhnbWQ0N2JxbmVraWo1aThiNXByMDNobzg0OWU2LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwic3ViIjoiMTEzMDAyOTY3NDEwMjY3ODc3NDAyIiwiZW1haWwiOiJlbGVhbm9ya29sc29uQGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJhdF9oYXNoIjoia1NaUlRiR1BCZGNlZDJmMFVRVTdUUSIsImlhdCI6MTY4Njg2ODcwOCwiZXhwIjoxNjg2ODcyMzA4fQ.C2cyVGSm7nhPdE0sqgXsNYvqdFGaaW4IgLv8iiUEJLXRw1rXwAnN48fpYhNEVdvFw5NnSvJbTsueB7NYglFi7HyZEIvG_V0etoaGCz8DgrkX-IiEdySRAtGX8RTIzFzYnYr3RSbqXThebVUuOhuTNMm7lSecF4SP7nrIIKjqEvybhr481FUhoKeNts33rB1n3dJcnNUXKNJzdpNZUHFFN1EhSRKjR48ri6M0hiQ2ls8sabvQL2s8dj9M2C09qp5UlNpbsJby2gOGTZ1f50R4--Ex-lU23C3FlmelA9ieYt3XGDRknTQUKYG3P41ZRtnEGZU2bmi2Y8KOd_A4jkUzng"
+	},
+	"emulator-analytics-clientId": "5c531fdf-d5f5-4fef-848c-2664c20af517"
+}

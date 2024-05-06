@@ -1,0 +1,10 @@
+2024-03-09 11:03:08,068 DEBUG    root            Loaded Command Group: ['gcloud', 'app']
+2024-03-09 11:03:08,101 DEBUG    root            Loaded Command Group: ['gcloud', 'app', 'deploy']
+2024-03-09 11:03:08,102 DEBUG    root            Running [gcloud.app.deploy] with arguments: []
+2024-03-09 11:03:08,108 DEBUG    root            Loading runtimes experiment config from [gs://runtime-builders/experiments.yaml]
+2024-03-09 11:03:08,115 INFO     root            Reading [<googlecloudsdk.api_lib.storage.storage_util.ObjectReference object at 0x1038facd0>]
+2024-03-09 11:03:08,173 INFO     ___FILE_ONLY___ 
+
+Command killed by keyboard interrupt
+
+

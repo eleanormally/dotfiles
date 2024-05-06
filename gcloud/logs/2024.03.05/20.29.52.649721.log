@@ -1,0 +1,12 @@
+2024-03-05 20:29:52,650 DEBUG    root            Loaded Command Group: ['gcloud', 'app']
+2024-03-05 20:29:52,652 DEBUG    root            Loaded Command Group: ['gcloud', 'app', 'logs']
+2024-03-05 20:29:52,659 DEBUG    root            Loaded Command Group: ['gcloud', 'app', 'logs', 'tail']
+2024-03-05 20:29:52,660 DEBUG    root            Running [gcloud.app.logs.tail] with arguments: [--service: "default"]
+2024-03-05 20:29:52,661 INFO     ___FILE_ONLY___ Waiting for new log entries...
+
+2024-03-05 20:30:42,479 DEBUG    root            start timestamp: None
+2024-03-05 20:31:15,973 INFO     ___FILE_ONLY___ 
+
+Command killed by keyboard interrupt
+
+

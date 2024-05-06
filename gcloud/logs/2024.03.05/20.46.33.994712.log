@@ -1,0 +1,25 @@
+2024-03-05 20:46:33,995 DEBUG    root            Loaded Command Group: ['gcloud', 'app']
+2024-03-05 20:46:34,027 DEBUG    root            Loaded Command Group: ['gcloud', 'app', 'deploy']
+2024-03-05 20:46:34,028 DEBUG    root            Running [gcloud.app.deploy] with arguments: []
+2024-03-05 20:46:34,041 DEBUG    root            Loading runtimes experiment config from [gs://runtime-builders/experiments.yaml]
+2024-03-05 20:46:34,049 INFO     root            Reading [<googlecloudsdk.api_lib.storage.storage_util.ObjectReference object at 0x1064ac290>]
+2024-03-05 20:46:34,433 DEBUG    root            Flex image build option: FlexImageBuildOptions.ON_SERVER
+2024-03-05 20:46:34,442 ERROR    root            An app.yaml (or appengine-web.xml) file is required to deploy this directory as an App Engine application. Create an app.yaml file using the directions at https://cloud.google.com/appengine/docs/flexible/reference/app-yaml (App Engine flexible environment) or https://cloud.google.com/appengine/docs/standard/reference/app-yaml (App Engine standard environment) under the tab for your language.
+2024-03-05 20:46:34,442 DEBUG    root            (gcloud.app.deploy) [/Users/ellie/Documents/RPI/Classes/ALing/eelsAAA] could not be identified as a valid source directory or file.
+Traceback (most recent call last):
+  File "/Users/ellie/google-cloud-sdk/lib/googlecloudsdk/calliope/cli.py", line 987, in Execute
+    resources = calliope_command.Run(cli=self, args=args)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ellie/google-cloud-sdk/lib/googlecloudsdk/calliope/backend.py", line 807, in Run
+    resources = command_instance.Run(args)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ellie/google-cloud-sdk/lib/surface/app/deploy.py", line 127, in Run
+    return deploy_util.RunDeploy(
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ellie/google-cloud-sdk/lib/googlecloudsdk/command_lib/app/deploy_util.py", line 629, in RunDeploy
+    services, configs = deployables.GetDeployables(
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ellie/google-cloud-sdk/lib/googlecloudsdk/command_lib/app/deployables.py", line 490, in GetDeployables
+    raise exceptions.UnknownSourceError(path)
+googlecloudsdk.command_lib.app.exceptions.UnknownSourceError: [/Users/ellie/Documents/RPI/Classes/ALing/eelsAAA] could not be identified as a valid source directory or file.
+2024-03-05 20:46:34,444 ERROR    root            (gcloud.app.deploy) [/Users/ellie/Documents/RPI/Classes/ALing/eelsAAA] could not be identified as a valid source directory or file.

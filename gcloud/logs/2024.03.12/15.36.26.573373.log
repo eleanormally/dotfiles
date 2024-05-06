@@ -1,0 +1,237 @@
+2024-03-12 15:36:26,574 DEBUG    root            Loaded Command Group: ['gcloud', 'app']
+2024-03-12 15:36:26,655 DEBUG    root            Loaded Command Group: ['gcloud', 'app', 'deploy']
+2024-03-12 15:36:26,657 DEBUG    root            Running [gcloud.app.deploy] with arguments: []
+2024-03-12 15:36:26,679 DEBUG    google.auth.transport.requests Making request: POST https://oauth2.googleapis.com/token
+2024-03-12 15:36:26,692 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2024-03-12 15:36:26,931 DEBUG    urllib3.connectionpool https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2024-03-12 15:36:26,949 DEBUG    root            Loading runtimes experiment config from [gs://runtime-builders/experiments.yaml]
+2024-03-12 15:36:26,962 INFO     root            Reading [<googlecloudsdk.api_lib.storage.storage_util.ObjectReference object at 0x1085f9b90>]
+2024-03-12 15:36:27,031 DEBUG    root            Flex image build option: FlexImageBuildOptions.ON_SERVER
+2024-03-12 15:36:27,045 INFO     root            Executing staging command: [/Users/ellie/google-cloud-sdk/platform/google_appengine/go-app-stager /Users/ellie/Documents/RPI/Classes/ALing/eelsAAA/src/app.yaml /Users/ellie/Documents/RPI/Classes/ALing/eelsAAA/src /var/folders/1y/1wxwnnd51yb6zjv9vq4g5q000000gn/T/tmp3w92gaa3/tmpb71wj6j4]
+
+
+2024-03-12 15:36:27,045 DEBUG    root            Executing command: ['/Users/ellie/google-cloud-sdk/platform/google_appengine/go-app-stager', '/Users/ellie/Documents/RPI/Classes/ALing/eelsAAA/src/app.yaml', '/Users/ellie/Documents/RPI/Classes/ALing/eelsAAA/src', '/var/folders/1y/1wxwnnd51yb6zjv9vq4g5q000000gn/T/tmp3w92gaa3/tmpb71wj6j4']
+2024-03-12 15:36:27,077 INFO     root            ------------------------------------ STDOUT ------------------------------------
+building with dependencies from go.mod
+------------------------------------ STDERR ------------------------------------
+2024/03/12 15:36:27 staging for go1.21
+main-package: .
+copied /Users/ellie/Documents/RPI/Classes/ALing/eelsAAA/src/.env to /var/folders/1y/1wxwnnd51yb6zjv9vq4g5q000000gn/T/tmp3w92gaa3/tmpb71wj6j4/.env
+copied /Users/ellie/Documents/RPI/Classes/ALing/eelsAAA/src/.gcloudignore to /var/folders/1y/1wxwnnd51yb6zjv9vq4g5q000000gn/T/tmp3w92gaa3/tmpb71wj6j4/.gcloudignore
+copied /Users/ellie/Documents/RPI/Classes/ALing/eelsAAA/src/app.yaml to /var/folders/1y/1wxwnnd51yb6zjv9vq4g5q000000gn/T/tmp3w92gaa3/tmpb71wj6j4/app.yaml
+copied /Users/ellie/Documents/RPI/Classes/ALing/eelsAAA/src/components/base.templ to /var/folders/1y/1wxwnnd51yb6zjv9vq4g5q000000gn/T/tmp3w92gaa3/tmpb71wj6j4/components/base.templ
+copied /Users/ellie/Documents/RPI/Classes/ALing/eelsAAA/src/components/base_templ.go to /var/folders/1y/1wxwnnd51yb6zjv9vq4g5q000000gn/T/tmp3w92gaa3/tmpb71wj6j4/components/base_templ.go
+copied /Users/ellie/Documents/RPI/Classes/ALing/eelsAAA/src/components/data.templ to /var/folders/1y/1wxwnnd51yb6zjv9vq4g5q000000gn/T/tmp3w92gaa3/tmpb71wj6j4/components/data.templ
+copied /Users/ellie/Documents/RPI/Classes/ALing/eelsAAA/src/components/dataEntry.templ to /var/folders/1y/1wxwnnd51yb6zjv9vq4g5q000000gn/T/tmp3w92gaa3/tmpb71wj6j4/components/dataEntry.templ
+copied /Users/ellie/Documents/RPI/Classes/ALing/eelsAAA/src/components/dataEntry_templ.go to /var/folders/1y/1wxwnnd51yb6zjv9vq4g5q000000gn/T/tmp3w92gaa3/tmpb71wj6j4/components/dataEntry_templ.go
+copied /Users/ellie/Documents/RPI/Classes/ALing/eelsAAA/src/components/data_templ.go to /var/folders/1y/1wxwnnd51yb6zjv9vq4g5q000000gn/T/tmp3w92gaa3/tmpb71wj6j4/components/data_templ.go
+copied /Users/ellie/Documents/RPI/Classes/ALing/eelsAAA/src/components/entryVisualizer.templ to /var/folders/1y/1wxwnnd51yb6zjv9vq4g5q000000gn/T/tmp3w92gaa3/tmpb71wj6j4/components/entryVisualizer.templ
+copied /Users/ellie/Documents/RPI/Classes/ALing/eelsAAA/src/components/entryVisualizer_templ.go to /var/folders/1y/1wxwnnd51yb6zjv9vq4g5q000000gn/T/tmp3w92gaa3/tmpb71wj6j4/components/entryVisualizer_templ.go
+copied /Users/ellie/Documents/RPI/Classes/ALing/eelsAAA/src/components/test.templ to /var/folders/1y/1wxwnnd51yb6zjv9vq4g5q000000gn/T/tmp3w92gaa3/tmpb71wj6j4/components/test.templ
+copied /Users/ellie/Documents/RPI/Classes/ALing/eelsAAA/src/components/test_templ.go to /var/folders/1y/1wxwnnd51yb6zjv9vq4g5q000000gn/T/tmp3w92gaa3/tmpb71wj6j4/components/test_templ.go
+copied /Users/ellie/Documents/RPI/Classes/ALing/eelsAAA/src/dataPage.go to /var/folders/1y/1wxwnnd51yb6zjv9vq4g5q000000gn/T/tmp3w92gaa3/tmpb71wj6j4/dataPage.go
+copied /Users/ellie/Documents/RPI/Classes/ALing/eelsAAA/src/enterUserData.go to /var/folders/1y/1wxwnnd51yb6zjv9vq4g5q000000gn/T/tmp3w92gaa3/tmpb71wj6j4/enterUserData.go
+copied /Users/ellie/Documents/RPI/Classes/ALing/eelsAAA/src/exec to /var/folders/1y/1wxwnnd51yb6zjv9vq4g5q000000gn/T/tmp3w92gaa3/tmpb71wj6j4/exec
+copied /Users/ellie/Documents/RPI/Classes/ALing/eelsAAA/src/go.mod to /var/folders/1y/1wxwnnd51yb6zjv9vq4g5q000000gn/T/tmp3w92gaa3/tmpb71wj6j4/go.mod
+copied /Users/ellie/Documents/RPI/Classes/ALing/eelsAAA/src/go.sum to /var/folders/1y/1wxwnnd51yb6zjv9vq4g5q000000gn/T/tmp3w92gaa3/tmpb71wj6j4/go.sum
+copied /Users/ellie/Documents/RPI/Classes/ALing/eelsAAA/src/handleResult.go to /var/folders/1y/1wxwnnd51yb6zjv9vq4g5q000000gn/T/tmp3w92gaa3/tmpb71wj6j4/handleResult.go
+copied /Users/ellie/Documents/RPI/Classes/ALing/eelsAAA/src/main.go to /var/folders/1y/1wxwnnd51yb6zjv9vq4g5q000000gn/T/tmp3w92gaa3/tmpb71wj6j4/main.go
+copied /Users/ellie/Documents/RPI/Classes/ALing/eelsAAA/src/testPage.go to /var/folders/1y/1wxwnnd51yb6zjv9vq4g5q000000gn/T/tmp3w92gaa3/tmpb71wj6j4/testPage.go
+copied /Users/ellie/Documents/RPI/Classes/ALing/eelsAAA/src/userData.go to /var/folders/1y/1wxwnnd51yb6zjv9vq4g5q000000gn/T/tmp3w92gaa3/tmpb71wj6j4/userData.go
+--------------------------------------------------------------------------------
+
+2024-03-12 15:36:27,077 DEBUG    root            API endpoint: [https://appengine.googleapis.com/], API version: [v1]
+2024-03-12 15:36:27,085 DEBUG    google.auth.transport.requests Making request: POST https://oauth2.googleapis.com/token
+2024-03-12 15:36:27,087 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2024-03-12 15:36:27,184 DEBUG    urllib3.connectionpool https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2024-03-12 15:36:27,456 INFO     ___FILE_ONLY___ Services to deploy:
+
+
+2024-03-12 15:36:27,456 INFO     ___FILE_ONLY___ descriptor:                  [/Users/ellie/Documents/RPI/Classes/ALing/eelsAAA/src/app.yaml]
+source:                      [/Users/ellie/Documents/RPI/Classes/ALing/eelsAAA/src]
+target project:              [eelsaaa]
+target service:              [default]
+target version:              [20240312t153627]
+target url:                  [https://eelsaaa.ue.r.appspot.com]
+target service account:      [eelsaaa@appspot.gserviceaccount.com]
+
+
+
+2024-03-12 15:36:28,461 DEBUG    root            No bucket specified, retrieving default bucket.
+2024-03-12 15:36:28,465 DEBUG    root            Using bucket [gs://staging.eelsaaa.appspot.com].
+2024-03-12 15:36:28,627 INFO     ___FILE_ONLY___ Beginning deployment of service [default]...
+
+2024-03-12 15:36:28,628 INFO     root            Using ignore file at [/Users/ellie/Documents/RPI/Classes/ALing/eelsAAA/src/.gcloudignore].
+2024-03-12 15:36:28,630 DEBUG    root            Skipping file [.gcloudignore]
+2024-03-12 15:36:28,663 DEBUG    root            Could not call git with args ('config', '--get-regexp', 'remote\\.(.*)\\.url'): Command '['git', 'config', '--get-regexp', 'remote\\.(.*)\\.url']' returned non-zero exit status 1.
+2024-03-12 15:36:28,663 INFO     root            Could not find any remote repositories associated with [/var/folders/1y/1wxwnnd51yb6zjv9vq4g5q000000gn/T/tmp3w92gaa3/tmpb71wj6j4]. Cloud diagnostic tools may not be able to display the correct source code for this deployment.
+2024-03-12 15:36:29,080 DEBUG    root            Skipping upload of [app.yaml]
+2024-03-12 15:36:29,080 INFO     root            Incremental upload skipped 100.0% of data
+2024-03-12 15:36:29,080 DEBUG    root            Skipping upload of [go.mod]
+2024-03-12 15:36:29,080 INFO     root            Incremental upload skipped 100.0% of data
+2024-03-12 15:36:29,080 DEBUG    root            Skipping upload of [go.sum]
+2024-03-12 15:36:29,080 INFO     root            Incremental upload skipped 100.0% of data
+2024-03-12 15:36:29,080 INFO     root            Incremental upload skipped 86.02% of data
+2024-03-12 15:36:29,080 INFO     root            Incremental upload skipped 69.35% of data
+2024-03-12 15:36:29,080 DEBUG    root            Skipping upload of [handleResult.go]
+2024-03-12 15:36:29,080 INFO     root            Incremental upload skipped 75.17% of data
+2024-03-12 15:36:29,080 DEBUG    root            Skipping upload of [_main-package-path]
+2024-03-12 15:36:29,080 INFO     root            Incremental upload skipped 75.17% of data
+2024-03-12 15:36:29,081 DEBUG    root            Skipping upload of [.env]
+2024-03-12 15:36:29,081 INFO     root            Incremental upload skipped 75.23% of data
+2024-03-12 15:36:29,081 DEBUG    root            Skipping upload of [exec]
+2024-03-12 15:36:29,081 INFO     root            Incremental upload skipped 99.99% of data
+2024-03-12 15:36:29,081 INFO     root            Incremental upload skipped 99.97% of data
+2024-03-12 15:36:29,081 DEBUG    root            Skipping upload of [dataPage.go]
+2024-03-12 15:36:29,081 INFO     root            Incremental upload skipped 99.97% of data
+2024-03-12 15:36:29,081 INFO     root            Incremental upload skipped 99.96% of data
+2024-03-12 15:36:29,081 INFO     root            Incremental upload skipped 99.96% of data
+2024-03-12 15:36:29,081 DEBUG    root            Skipping upload of [components/data_templ.go]
+2024-03-12 15:36:29,081 INFO     root            Incremental upload skipped 99.96% of data
+2024-03-12 15:36:29,081 DEBUG    root            Skipping upload of [components/entryVisualizer.templ]
+2024-03-12 15:36:29,081 INFO     root            Incremental upload skipped 99.96% of data
+2024-03-12 15:36:29,081 DEBUG    root            Skipping upload of [components/data.templ]
+2024-03-12 15:36:29,081 INFO     root            Incremental upload skipped 99.96% of data
+2024-03-12 15:36:29,081 DEBUG    root            Skipping upload of [components/test.templ]
+2024-03-12 15:36:29,081 INFO     root            Incremental upload skipped 99.96% of data
+2024-03-12 15:36:29,081 INFO     root            Incremental upload skipped 99.94% of data
+2024-03-12 15:36:29,081 INFO     root            Incremental upload skipped 99.92% of data
+2024-03-12 15:36:29,081 DEBUG    root            Skipping upload of [components/entryVisualizer_templ.go]
+2024-03-12 15:36:29,081 INFO     root            Incremental upload skipped 99.92% of data
+2024-03-12 15:36:29,081 DEBUG    root            Skipping upload of [components/test_templ.go]
+2024-03-12 15:36:29,081 INFO     root            Incremental upload skipped 99.92% of data
+2024-03-12 15:36:29,081 INFO     root            Incremental upload skipped 99.91% of data
+2024-03-12 15:36:29,082 DEBUG    root            Uploading 8 files to Google Cloud Storage
+2024-03-12 15:36:29,082 DEBUG    root            Using [16] threads
+2024-03-12 15:36:29,082 INFO     ___FILE_ONLY___ ╔════════════════════════════════════════════════════════════╗
+
+2024-03-12 15:36:29,082 INFO     ___FILE_ONLY___ ╠═ Uploading 8 files to Google Cloud Storage                ═╣
+
+2024-03-12 15:36:29,082 INFO     ___FILE_ONLY___ ╚
+2024-03-12 15:36:29,116 INFO     root            Uploading [/var/folders/1y/1wxwnnd51yb6zjv9vq4g5q000000gn/T/tmp3w92gaa3/tmpb71wj6j4/components/dataEntry_templ.go] to [staging.eelsaaa.appspot.com/238e74f599fe24f8c33e4f6ce3e6f89391a36e00]
+2024-03-12 15:36:29,116 INFO     root            Uploading [/var/folders/1y/1wxwnnd51yb6zjv9vq4g5q000000gn/T/tmp3w92gaa3/tmpb71wj6j4/components/base.templ] to [staging.eelsaaa.appspot.com/65b8e1977897e5e7dc9d6c319315d00a49d283ff]
+2024-03-12 15:36:29,116 INFO     root            Uploading [/var/folders/1y/1wxwnnd51yb6zjv9vq4g5q000000gn/T/tmp3w92gaa3/tmpb71wj6j4/testPage.go] to [staging.eelsaaa.appspot.com/44946f32e332959289bdbd9f902965046fbe8505]
+2024-03-12 15:36:29,116 INFO     root            Uploading [/var/folders/1y/1wxwnnd51yb6zjv9vq4g5q000000gn/T/tmp3w92gaa3/tmpb71wj6j4/main.go] to [staging.eelsaaa.appspot.com/0cf63fd26c87d82c6fbf15ef771f431a744ba439]
+2024-03-12 15:36:29,118 INFO     root            Uploading [/var/folders/1y/1wxwnnd51yb6zjv9vq4g5q000000gn/T/tmp3w92gaa3/tmpb71wj6j4/components/base_templ.go] to [staging.eelsaaa.appspot.com/d23819460d871079057b188d6032da8778385371]
+2024-03-12 15:36:29,118 INFO     root            Uploading [/var/folders/1y/1wxwnnd51yb6zjv9vq4g5q000000gn/T/tmp3w92gaa3/tmpb71wj6j4/userData.go] to [staging.eelsaaa.appspot.com/30bd5f68a4c57724b5fe804d5c62b31764b0189c]
+2024-03-12 15:36:29,122 INFO     root            Uploading [/var/folders/1y/1wxwnnd51yb6zjv9vq4g5q000000gn/T/tmp3w92gaa3/tmpb71wj6j4/enterUserData.go] to [staging.eelsaaa.appspot.com/4478ecc0ada4bc7b6bf90a588bff33c80193ffc7]
+2024-03-12 15:36:29,123 INFO     root            Uploading [/var/folders/1y/1wxwnnd51yb6zjv9vq4g5q000000gn/T/tmp3w92gaa3/tmpb71wj6j4/components/dataEntry.templ] to [staging.eelsaaa.appspot.com/f0c6ad56596911c036ce7fba95cc5a4a508dbf5e]
+2024-03-12 15:36:29,241 INFO     ___FILE_ONLY___ ═══════
+2024-03-12 15:36:29,250 INFO     ___FILE_ONLY___ ════════
+2024-03-12 15:36:29,254 INFO     ___FILE_ONLY___ ═══════
+2024-03-12 15:36:29,256 INFO     ___FILE_ONLY___ ════════
+2024-03-12 15:36:29,256 INFO     ___FILE_ONLY___ ═══════
+2024-03-12 15:36:29,257 INFO     ___FILE_ONLY___ ════════
+2024-03-12 15:36:29,286 INFO     ___FILE_ONLY___ ═══════
+2024-03-12 15:36:29,287 INFO     ___FILE_ONLY___ ════════
+2024-03-12 15:36:29,287 INFO     ___FILE_ONLY___ ╝
+
+2024-03-12 15:36:29,296 INFO     ___FILE_ONLY___ File upload done.
+
+2024-03-12 15:36:29,296 INFO     root            Manifest: [{'app.yaml': {'sourceUrl': 'https://storage.googleapis.com/staging.eelsaaa.appspot.com/b28bd10f6beff66d7a26e56e555a529fcca994c8', 'sha1Sum': 'b28bd10f6beff66d7a26e56e555a529fcca994c8'}, 'go.mod': {'sourceUrl': 'https://storage.googleapis.com/staging.eelsaaa.appspot.com/940b55d1fa8ea72cc628c7076144073c431e7539', 'sha1Sum': '940b55d1fa8ea72cc628c7076144073c431e7539'}, 'go.sum': {'sourceUrl': 'https://storage.googleapis.com/staging.eelsaaa.appspot.com/1a132ac0a66009e08b8aff8100c20bd987fecb1b', 'sha1Sum': '1a132ac0a66009e08b8aff8100c20bd987fecb1b'}, 'enterUserData.go': {'sourceUrl': 'https://storage.googleapis.com/staging.eelsaaa.appspot.com/4478ecc0ada4bc7b6bf90a588bff33c80193ffc7', 'sha1Sum': '4478ecc0ada4bc7b6bf90a588bff33c80193ffc7'}, 'userData.go': {'sourceUrl': 'https://storage.googleapis.com/staging.eelsaaa.appspot.com/30bd5f68a4c57724b5fe804d5c62b31764b0189c', 'sha1Sum': '30bd5f68a4c57724b5fe804d5c62b31764b0189c'}, 'handleResult.go': {'sourceUrl': 'https://storage.googleapis.com/staging.eelsaaa.appspot.com/eaeeb5a3cd6d139e2a93a596ff7aa67732c5a9f7', 'sha1Sum': 'eaeeb5a3cd6d139e2a93a596ff7aa67732c5a9f7'}, '_main-package-path': {'sourceUrl': 'https://storage.googleapis.com/staging.eelsaaa.appspot.com/3a52ce780950d4d969792a2559cd519d7ee8c727', 'sha1Sum': '3a52ce780950d4d969792a2559cd519d7ee8c727'}, '.env': {'sourceUrl': 'https://storage.googleapis.com/staging.eelsaaa.appspot.com/03c8adfed6eeef9ca097b59d01706aa54ff56f17', 'sha1Sum': '03c8adfed6eeef9ca097b59d01706aa54ff56f17'}, 'exec': {'sourceUrl': 'https://storage.googleapis.com/staging.eelsaaa.appspot.com/9957c728cca8152ecc0a01c929aa4732d145d57e', 'sha1Sum': '9957c728cca8152ecc0a01c929aa4732d145d57e'}, 'testPage.go': {'sourceUrl': 'https://storage.googleapis.com/staging.eelsaaa.appspot.com/44946f32e332959289bdbd9f902965046fbe8505', 'sha1Sum': '44946f32e332959289bdbd9f902965046fbe8505'}, 'dataPage.go': {'sourceUrl': 'https://storage.googleapis.com/staging.eelsaaa.appspot.com/17afb6c791fdd4d536af375d5d3a78315830ff4e', 'sha1Sum': '17afb6c791fdd4d536af375d5d3a78315830ff4e'}, 'main.go': {'sourceUrl': 'https://storage.googleapis.com/staging.eelsaaa.appspot.com/0cf63fd26c87d82c6fbf15ef771f431a744ba439', 'sha1Sum': '0cf63fd26c87d82c6fbf15ef771f431a744ba439'}, 'components/base.templ': {'sourceUrl': 'https://storage.googleapis.com/staging.eelsaaa.appspot.com/65b8e1977897e5e7dc9d6c319315d00a49d283ff', 'sha1Sum': '65b8e1977897e5e7dc9d6c319315d00a49d283ff'}, 'components/data_templ.go': {'sourceUrl': 'https://storage.googleapis.com/staging.eelsaaa.appspot.com/7a5d6e807c5d93168c44b5525a18e2e7b659265b', 'sha1Sum': '7a5d6e807c5d93168c44b5525a18e2e7b659265b'}, 'components/entryVisualizer.templ': {'sourceUrl': 'https://storage.googleapis.com/staging.eelsaaa.appspot.com/21ab9ae19bf9652edbd0b84a97009372bbc8303a', 'sha1Sum': '21ab9ae19bf9652edbd0b84a97009372bbc8303a'}, 'components/data.templ': {'sourceUrl': 'https://storage.googleapis.com/staging.eelsaaa.appspot.com/d7153a39737693b39ae9874f262ff85bc466fb83', 'sha1Sum': 'd7153a39737693b39ae9874f262ff85bc466fb83'}, 'components/test.templ': {'sourceUrl': 'https://storage.googleapis.com/staging.eelsaaa.appspot.com/25176e08f2ec0ce37eeb3ef1bab0b2152ab30224', 'sha1Sum': '25176e08f2ec0ce37eeb3ef1bab0b2152ab30224'}, 'components/dataEntry_templ.go': {'sourceUrl': 'https://storage.googleapis.com/staging.eelsaaa.appspot.com/238e74f599fe24f8c33e4f6ce3e6f89391a36e00', 'sha1Sum': '238e74f599fe24f8c33e4f6ce3e6f89391a36e00'}, 'components/base_templ.go': {'sourceUrl': 'https://storage.googleapis.com/staging.eelsaaa.appspot.com/d23819460d871079057b188d6032da8778385371', 'sha1Sum': 'd23819460d871079057b188d6032da8778385371'}, 'components/entryVisualizer_templ.go': {'sourceUrl': 'https://storage.googleapis.com/staging.eelsaaa.appspot.com/0646a0b3e1889af8bdd271e1c3511df8437b1329', 'sha1Sum': '0646a0b3e1889af8bdd271e1c3511df8437b1329'}, 'components/test_templ.go': {'sourceUrl': 'https://storage.googleapis.com/staging.eelsaaa.appspot.com/0d9fa3f1f30fff6aa0e2dcd2d583c69291284b7f', 'sha1Sum': '0d9fa3f1f30fff6aa0e2dcd2d583c69291284b7f'}, 'components/dataEntry.templ': {'sourceUrl': 'https://storage.googleapis.com/staging.eelsaaa.appspot.com/f0c6ad56596911c036ce7fba95cc5a4a508dbf5e', 'sha1Sum': 'f0c6ad56596911c036ce7fba95cc5a4a508dbf5e'}}]
+2024-03-12 15:36:29,296 DEBUG    root            Converted YAML to JSON: "{
+  "entrypoint": {
+    "shell": ""
+  },
+  "envVariables": {
+    "DATABASE_URL": "postgres://website:tuA8qkuCDrR4V2Pg@database-1.cp62g286s9a0.us-east-2.rds.amazonaws.com:5432/eelsaaa"
+  },
+  "runtime": "go121"
+}"
+2024-03-12 15:36:29,557 DEBUG    root            Operation [apps/eelsaaa/operations/29f1e759-dfde-4624-a701-7b36b19a1b2f] not complete. Waiting to retry.
+2024-03-12 15:36:29,558 INFO     ___FILE_ONLY___ Updating service [default]...
+2024-03-12 15:36:30,718 DEBUG    root            Operation [apps/eelsaaa/operations/29f1e759-dfde-4624-a701-7b36b19a1b2f] not complete. Waiting to retry.
+2024-03-12 15:36:36,062 DEBUG    root            Operation [apps/eelsaaa/operations/29f1e759-dfde-4624-a701-7b36b19a1b2f] not complete. Waiting to retry.
+2024-03-12 15:36:42,010 DEBUG    root            Operation [apps/eelsaaa/operations/29f1e759-dfde-4624-a701-7b36b19a1b2f] not complete. Waiting to retry.
+2024-03-12 15:36:47,598 DEBUG    root            Operation [apps/eelsaaa/operations/29f1e759-dfde-4624-a701-7b36b19a1b2f] not complete. Waiting to retry.
+2024-03-12 15:36:53,403 DEBUG    root            Operation [apps/eelsaaa/operations/29f1e759-dfde-4624-a701-7b36b19a1b2f] not complete. Waiting to retry.
+2024-03-12 15:36:58,917 DEBUG    root            Operation [apps/eelsaaa/operations/29f1e759-dfde-4624-a701-7b36b19a1b2f] not complete. Waiting to retry.
+2024-03-12 15:37:05,073 DEBUG    root            Operation [apps/eelsaaa/operations/29f1e759-dfde-4624-a701-7b36b19a1b2f] not complete. Waiting to retry.
+2024-03-12 15:37:10,575 DEBUG    root            Operation [apps/eelsaaa/operations/29f1e759-dfde-4624-a701-7b36b19a1b2f] not complete. Waiting to retry.
+2024-03-12 15:37:16,215 DEBUG    root            Operation [apps/eelsaaa/operations/29f1e759-dfde-4624-a701-7b36b19a1b2f] not complete. Waiting to retry.
+2024-03-12 15:37:22,236 DEBUG    root            Operation [apps/eelsaaa/operations/29f1e759-dfde-4624-a701-7b36b19a1b2f] not complete. Waiting to retry.
+2024-03-12 15:37:28,042 DEBUG    root            Operation [apps/eelsaaa/operations/29f1e759-dfde-4624-a701-7b36b19a1b2f] not complete. Waiting to retry.
+2024-03-12 15:37:33,765 DEBUG    root            Operation [apps/eelsaaa/operations/29f1e759-dfde-4624-a701-7b36b19a1b2f] not complete. Waiting to retry.
+2024-03-12 15:37:38,908 DEBUG    root            Operation [apps/eelsaaa/operations/29f1e759-dfde-4624-a701-7b36b19a1b2f] not complete. Waiting to retry.
+2024-03-12 15:37:44,267 DEBUG    root            Operation [apps/eelsaaa/operations/29f1e759-dfde-4624-a701-7b36b19a1b2f] not complete. Waiting to retry.
+2024-03-12 15:37:49,878 DEBUG    root            Operation [apps/eelsaaa/operations/29f1e759-dfde-4624-a701-7b36b19a1b2f] not complete. Waiting to retry.
+2024-03-12 15:37:55,306 DEBUG    root            Operation [apps/eelsaaa/operations/29f1e759-dfde-4624-a701-7b36b19a1b2f] not complete. Waiting to retry.
+2024-03-12 15:38:00,646 DEBUG    root            Operation [apps/eelsaaa/operations/29f1e759-dfde-4624-a701-7b36b19a1b2f] not complete. Waiting to retry.
+2024-03-12 15:38:06,854 DEBUG    root            Operation [apps/eelsaaa/operations/29f1e759-dfde-4624-a701-7b36b19a1b2f] not complete. Waiting to retry.
+2024-03-12 15:38:12,282 DEBUG    root            Operation [apps/eelsaaa/operations/29f1e759-dfde-4624-a701-7b36b19a1b2f] complete. Result: {
+    "done": true,
+    "metadata": {
+        "@type": "type.googleapis.com/google.appengine.v1.OperationMetadataV1",
+        "endTime": "2024-03-12T19:38:10.583Z",
+        "insertTime": "2024-03-12T19:36:29.453Z",
+        "method": "google.appengine.v1.Versions.CreateVersion",
+        "target": "apps/eelsaaa/services/default/versions/20240312t153627",
+        "user": "eleanorkolson@gmail.com"
+    },
+    "name": "apps/eelsaaa/operations/29f1e759-dfde-4624-a701-7b36b19a1b2f",
+    "response": {
+        "@type": "type.googleapis.com/google.appengine.v1.Version",
+        "createTime": "2024-03-12T19:38:04Z",
+        "diskUsageBytes": "28925181",
+        "env": "standard",
+        "id": "20240312t153627",
+        "instanceClass": "F1",
+        "name": "apps/eelsaaa/services/default/versions/20240312t153627",
+        "network": {},
+        "runtime": "go121",
+        "runtimeChannel": "default",
+        "servingStatus": "SERVING",
+        "threadsafe": true,
+        "versionUrl": "https://20240312t153627-dot-eelsaaa.appspot.com"
+    }
+}
+2024-03-12 15:38:13,038 DEBUG    root            Operation [apps/eelsaaa/operations/5d0930d7-f0e1-4f9f-bad9-ffe1780e3b28] not complete. Waiting to retry.
+2024-03-12 15:38:13,039 INFO     ___FILE_ONLY___ Setting traffic split for service [default]...
+2024-03-12 15:38:14,193 DEBUG    root            Operation [apps/eelsaaa/operations/5d0930d7-f0e1-4f9f-bad9-ffe1780e3b28] not complete. Waiting to retry.
+2024-03-12 15:38:19,722 DEBUG    root            Operation [apps/eelsaaa/operations/5d0930d7-f0e1-4f9f-bad9-ffe1780e3b28] complete. Result: {
+    "done": true,
+    "metadata": {
+        "@type": "type.googleapis.com/google.appengine.v1.OperationMetadataV1",
+        "endTime": "2024-03-12T19:38:18.626Z",
+        "insertTime": "2024-03-12T19:38:12.825Z",
+        "method": "google.appengine.v1.Services.UpdateService",
+        "target": "apps/eelsaaa/services/default",
+        "user": "eleanorkolson@gmail.com"
+    },
+    "name": "apps/eelsaaa/operations/5d0930d7-f0e1-4f9f-bad9-ffe1780e3b28",
+    "response": {
+        "@type": "type.googleapis.com/google.appengine.v1.Service",
+        "id": "default",
+        "name": "apps/eelsaaa/services/default",
+        "split": {
+            "allocations": {
+                "20240312t153627": 1
+            }
+        }
+    }
+}
+2024-03-12 15:38:19,772 INFO     root            Previous default version [eelsaaa/default/20240309t153013] is an automatically scaled standard environment app, so not stopping it.
+2024-03-12 15:38:19,772 INFO     ___FILE_ONLY___ Deployed service [default] to [https://eelsaaa.ue.r.appspot.com]
+
+2024-03-12 15:38:19,775 INFO     ___FILE_ONLY___ 
+You can stream logs from the command line by running:
+  $ gcloud app logs tail -s default
+
+2024-03-12 15:38:19,776 INFO     ___FILE_ONLY___ 
+To view your application in the web browser run:
+  $ gcloud app browse
+
+2024-03-12 15:38:19,776 DEBUG    root            Chosen display Format:none
+2024-03-12 15:38:19,776 INFO     root            Display format: "none"
+2024-03-12 15:38:19,781 DEBUG    root            Checking for updates...
+2024-03-12 15:38:19,864 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): dl.google.com:443
+2024-03-12 15:38:19,968 DEBUG    urllib3.connectionpool https://dl.google.com:443 "GET /dl/cloudsdk/channels/rapid/components-2.json HTTP/1.1" 200 214446
+2024-03-12 15:38:20,066 DEBUG    root            Updating notification cache...
+2024-03-12 15:38:20,066 DEBUG    root            Activating notification: [default]
+2024-03-12 15:38:20,066 INFO     ___FILE_ONLY___ 
+
+Updates are available for some Google Cloud CLI components.  To install them,
+please run:
+  $ gcloud components update
+
+

@@ -1,0 +1,128 @@
+{
+  "app_name": "CrabEA",
+  "app_title": "Satisfactory Early Access",
+  "asset_infos": {
+    "Windows": {
+      "app_name": "CrabEA",
+      "asset_id": "CrabEA",
+      "build_version": "211839.204",
+      "catalog_item_id": "b915dfe8dcf74770841c82a4162dc954",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "crab"
+    }
+  },
+  "base_urls": [
+    "https://download.epicgames.com/Builds/Org/o-9r9hp69ccnr39qp9f9mgpsznznu4as/Crab/default",
+    "https://download2.epicgames.com/Builds/Org/o-9r9hp69ccnr39qp9f9mgpsznznu4as/Crab/default",
+    "https://download3.epicgames.com/Builds/Org/o-9r9hp69ccnr39qp9f9mgpsznznu4as/Crab/default",
+    "https://download4.epicgames.com/Builds/Org/o-9r9hp69ccnr39qp9f9mgpsznznu4as/Crab/default",
+    "https://epicgames-download1.akamaized.net/Builds/Org/o-9r9hp69ccnr39qp9f9mgpsznznu4as/Crab/default",
+    "https://fastly-download.epicgames.com/Builds/Org/o-9r9hp69ccnr39qp9f9mgpsznznu4as/Crab/default"
+  ],
+  "metadata": {
+    "ageGatings": {},
+    "applicationId": "",
+    "categories": [
+      {
+        "path": "games"
+      },
+      {
+        "path": "applications"
+      }
+    ],
+    "creationDate": "2019-02-26T15:59:56.670Z",
+    "customAttributes": {
+      "CanRunOffline": {
+        "type": "STRING",
+        "value": "true"
+      },
+      "CloudIncludeList": {
+        "type": "STRING",
+        "value": "*.sav"
+      },
+      "CloudSaveFolder": {
+        "type": "STRING",
+        "value": "{AppData}/FactoryGame/Saved/SaveGames/{EpicID}/"
+      },
+      "DisablePresenceWhileRunning": {
+        "type": "STRING",
+        "value": "true"
+      },
+      "FolderName": {
+        "type": "STRING",
+        "value": "SatisfactoryEarlyAccess"
+      },
+      "MaxSizeMB": {
+        "type": "STRING",
+        "value": "30000"
+      },
+      "MonitorPresence": {
+        "type": "STRING",
+        "value": "true"
+      },
+      "PresenceID": {
+        "type": "STRING",
+        "value": "crab"
+      },
+      "RequirementsJson": {
+        "type": "STRING",
+        "value": "{}"
+      },
+      "availableDate": {
+        "type": "STRING",
+        "value": "1553011200"
+      }
+    },
+    "description": "Satisfactory Early Access",
+    "developer": "Coffee Stain Publishing",
+    "developerId": "o-9r9hp69ccnr39qp9f9mgpsznznu4as",
+    "endOfSupport": false,
+    "entitlementName": "b915dfe8dcf74770841c82a4162dc954",
+    "entitlementType": "EXECUTABLE",
+    "eulaIds": [
+      "egstore"
+    ],
+    "id": "b915dfe8dcf74770841c82a4162dc954",
+    "installModes": [],
+    "itemType": "DURABLE",
+    "keyImages": [
+      {
+        "height": 1440,
+        "md5": "bbca71b28786d26e91f29f1c3649a781",
+        "size": 4529832,
+        "type": "DieselGameBox",
+        "uploadedDate": "2022-12-06T18:29:34.740Z",
+        "url": "https://cdn1.epicgames.com/item/crab/U7_Epic_2560x1440_Logo_2560x1440-bbca71b28786d26e91f29f1c3649a781",
+        "width": 2560
+      },
+      {
+        "height": 1600,
+        "md5": "ed7f1a9f8a59acbfaba61af7accc0a4b",
+        "size": 2207586,
+        "type": "DieselGameBoxTall",
+        "uploadedDate": "2022-12-06T18:29:47.899Z",
+        "url": "https://cdn1.epicgames.com/item/crab/U7_Epic_1200x1600_Logo_1200x1600-ed7f1a9f8a59acbfaba61af7accc0a4b",
+        "width": 1200
+      }
+    ],
+    "lastModifiedDate": "2022-12-06T19:20:45.653Z",
+    "namespace": "crab",
+    "releaseInfo": [
+      {
+        "appId": "CrabEA",
+        "compatibleApps": [],
+        "dateAdded": "2019-02-26T00:00:00.000Z",
+        "id": "ad62bf526c264f9c9bfffdaf2dfa60ff",
+        "platform": [
+          "Windows"
+        ],
+        "releaseNote": "",
+        "versionTitle": ""
+      }
+    ],
+    "status": "ACTIVE",
+    "title": "Satisfactory Early Access",
+    "unsearchable": false
+  }
+}
